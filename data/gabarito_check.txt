@@ -1,6 +1,6 @@
 questoes totais: 156
-resolvidas com letra preenchida pelo INEP: 37
-letras de comentarios conferidas contra INEP: 15
+resolvidas com letra preenchida pelo INEP: 0
+letras de comentarios conferidas contra INEP: 52
 divergencias comentario vs INEP: 0
 divergencias treino vs INEP: 0
 sem gabarito oficial: 0
