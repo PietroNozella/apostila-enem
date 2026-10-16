@@ -14,6 +14,21 @@ export default function Home() {
       </p>
       <ProgressoResumo prefix="" total={treinosTotal} className="mt-1 block" />
 
+      <Link
+        href="/simulado"
+        className="mt-8 flex items-center justify-between gap-4 rounded-xl border border-neutral-200 p-5 transition-colors hover:border-neutral-400 hover:bg-neutral-50"
+      >
+        <span>
+          <span className="font-semibold">Simulado ENEM</span>
+          <span className="mt-1 block text-sm text-neutral-500">
+            45 questões sorteadas · cronômetro de 2h30 · gabarito no fim
+          </span>
+        </span>
+        <span aria-hidden className="text-neutral-400">
+          →
+        </span>
+      </Link>
+
       <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {subjects.map((subject) => (
           <li key={subject.id}>
