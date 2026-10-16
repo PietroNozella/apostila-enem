@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { meta, subjects } from "@/lib/content";
 import ProgressoResumo from "@/components/progresso-resumo";
+import ProgressoSincronizacao from "@/components/progresso-sincronizacao";
 
 export default function Home() {
   const treinosTotal = subjects.reduce((soma, subject) => soma + subject.units.length * 2, 0);
@@ -35,6 +36,7 @@ export default function Home() {
         ))}
       </ul>
 
+      <ProgressoSincronizacao />
       <footer className="mt-14 border-t border-neutral-200 pt-6 text-sm text-neutral-500">
         Questões do ENEM (INEP, CC BY-ND 3.0) extraídas da apostila “ENEM 2026 –
         Estudo por Questões” V3.
