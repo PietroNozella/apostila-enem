@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getSubject, subjects } from "@/lib/content";
+import ProgressoResumo from "@/components/progresso-resumo";
 
 export function generateStaticParams() {
   return subjects.map((subject) => ({ slug: subject.id }));
@@ -41,6 +42,7 @@ export default async function Page(props: PageProps<'/materia/[slug]'>) {
                   Explicação + 3 questões comentadas
                 </span>
               </span>
+              <ProgressoResumo prefix={`${unit.id}-treino`} total={2} />
             </Link>
           </li>
         ))}

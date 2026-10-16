@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { meta, subjects } from "@/lib/content";
+import ProgressoResumo from "@/components/progresso-resumo";
 
 export default function Home() {
+  const treinosTotal = subjects.reduce((soma, subject) => soma + subject.units.length * 2, 0);
   return (
     <main className="mx-auto w-full max-w-5xl px-6 py-14">
       <h1 className="text-3xl font-bold tracking-tight">ENEM Treino</h1>
@@ -9,6 +11,7 @@ export default function Home() {
         {meta.units} unidades de estudo em {meta.subjects} matérias ·{" "}
         {meta.questions} questões do ENEM 2023 e 2024 com resolução comentada
       </p>
+      <ProgressoResumo prefix="" total={treinosTotal} className="mt-1 block" />
 
       <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {subjects.map((subject) => (
@@ -22,6 +25,11 @@ export default function Home() {
               <span className="mt-4 text-sm text-neutral-600">
                 {subject.units.length} unidades · {subject.units.length * 3} questões
               </span>
+              <ProgressoResumo
+                prefix={`${subject.id}-`}
+                total={subject.units.length * 2}
+                className="mt-2"
+              />
             </Link>
           </li>
         ))}
