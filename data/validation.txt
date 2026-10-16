@@ -1,0 +1,187 @@
+## Português (Linguagens) - 4 unidades
+
+## Literatura (Linguagens) - 3 unidades
+
+## Inglês (Linguagens) - 2 unidades
+
+## Espanhol (Linguagens) - 2 unidades
+
+## Arte (Linguagens) - 3 unidades
+
+## História (Ciências Humanas) - 5 unidades
+
+## Geografia (Ciências Humanas) - 4 unidades
+
+## Filosofia (Ciências Humanas) - 3 unidades
+
+## Sociologia (Ciências Humanas) - 3 unidades
+
+## Biologia (Ciências da Natureza) - 5 unidades
+
+## Física (Ciências da Natureza) - 5 unidades
+
+## Química (Ciências da Natureza) - 6 unidades
+
+## Matemática (Matemática) - 7 unidades
+
+=== tabela de questoes (label | ano | n | resposta | len_comentario | #imgs | img_ok) ===
+portugues-01 R | 2024 | 23 | B | 578 | ['images/portugues-01-resolvida.png'] | True
+portugues-01 T1 | 2024 | 15 | B | 543 | ['images/portugues-01-treino1.png'] | True
+portugues-01 T2 | 2023 | 9 | E | 443 | ['images/portugues-01-treino2.png'] | True
+portugues-02 R | 2023 | 17 | D | 547 | ['images/portugues-02-resolvida.png'] | True
+portugues-02 T1 | 2023 | 24 | E | 463 | ['images/portugues-02-treino1.png'] | True
+portugues-02 T2 | 2023 | 45 | E | 516 | ['images/portugues-02-treino2.png'] | True
+portugues-03 R | 2024 | 33 | D | 491 | ['images/portugues-03-resolvida.png'] | True
+portugues-03 T1 | 2023 | 44 | A | 502 | ['images/portugues-03-treino1.png'] | True
+portugues-03 T2 | 2024 | 28 | E | 486 | ['images/portugues-03-treino2.png'] | True
+portugues-04 R | 2024 | 14 | C | 532 | ['images/portugues-04-resolvida.png'] | True
+portugues-04 T1 | 2023 | 16 | A | 449 | ['images/portugues-04-treino1.png'] | True
+portugues-04 T2 | 2023 | 21 | D | 393 | ['images/portugues-04-treino2.png'] | True
+literatura-01 R | 2024 | 31 | B | 599 | ['images/literatura-01-resolvida.png'] | True
+literatura-01 T1 | 2024 | 19 | D | 524 | ['images/literatura-01-treino1.png'] | True
+literatura-01 T2 | 2023 | 43 | A | 496 | ['images/literatura-01-treino2.png'] | True
+literatura-02 R | 2024 | 35 | D | 589 | ['images/literatura-02-resolvida.png'] | True
+literatura-02 T1 | 2023 | 26 | C | 622 | ['images/literatura-02-treino1.png'] | True
+literatura-02 T2 | 2024 | 24 | D | 458 | ['images/literatura-02-treino2.png'] | True
+literatura-03 R | 2024 | 38 | B | 500 | ['images/literatura-03-resolvida.png'] | True
+literatura-03 T1 | 2023 | 13 | C | 452 | ['images/literatura-03-treino1.png'] | True
+literatura-03 T2 | 2024 | 32 | B | 427 | ['images/literatura-03-treino2.png'] | True
+ingles-01 R | 2023 | 1 | B | 561 | ['images/ingles-01-resolvida.png'] | True
+ingles-01 T1 | 2024 | 3 | A | 475 | ['images/ingles-01-treino1.png'] | True
+ingles-01 T2 | 2024 | 5 | E | 518 | ['images/ingles-01-treino2.png'] | True
+ingles-02 R | 2023 | 5 | B | 494 | ['images/ingles-02-resolvida.png'] | True
+ingles-02 T1 | 2024 | 4 | A | 452 | ['images/ingles-02-treino1.png'] | True
+ingles-02 T2 | 2023 | 2 | B | 501 | ['images/ingles-02-treino2.png'] | True
+espanhol-01 R | 2024 | 2 | D | 506 | ['images/espanhol-01-resolvida.png'] | True
+espanhol-01 T1 | 2023 | 4 | B | 443 | ['images/espanhol-01-treino1.png'] | True
+espanhol-01 T2 | 2024 | 4 | D | 451 | ['images/espanhol-01-treino2.png'] | True
+espanhol-02 R | 2023 | 2 | A | 546 | ['images/espanhol-02-resolvida.png'] | True
+espanhol-02 T1 | 2024 | 5 | A | 476 | ['images/espanhol-02-treino1.png'] | True
+espanhol-02 T2 | 2023 | 5 | A | 436 | ['images/espanhol-02-treino2.png'] | True
+arte-01 R | 2024 | 36 | D | 600 | ['images/arte-01-resolvida.png'] | True
+arte-01 T1 | 2024 | 25 | C | 456 | ['images/arte-01-treino1.png'] | True
+arte-01 T2 | 2023 | 33 | A | 472 | ['images/arte-01-treino2.png'] | True
+arte-02 R | 2024 | 21 | E | 518 | ['images/arte-02-resolvida.png'] | True
+arte-02 T1 | 2023 | 37 | C | 448 | ['images/arte-02-treino1.png'] | True
+arte-02 T2 | 2023 | 38 | A | 377 | ['images/arte-02-treino2.png'] | True
+arte-03 R | 2024 | 8 | B | 553 | ['images/arte-03-resolvida.png'] | True
+arte-03 T1 | 2023 | 34 | C | 413 | ['images/arte-03-treino1.png'] | True
+arte-03 T2 | 2024 | 43 | E | 463 | ['images/arte-03-treino2.png'] | True
+historia-01 R | 2023 | 74 | D | 599 | ['images/historia-01-resolvida.png'] | True
+historia-01 T1 | 2024 | 59 | E | 417 | ['images/historia-01-treino1.png'] | True
+historia-01 T2 | 2023 | 50 | E | 474 | ['images/historia-01-treino2.png'] | True
+historia-02 R | 2023 | 73 | A | 550 | ['images/historia-02-resolvida.png'] | True
+historia-02 T1 | 2024 | 50 | B | 469 | ['images/historia-02-treino1.png'] | True
+historia-02 T2 | 2023 | 86 | E | 487 | ['images/historia-02-treino2.png'] | True
+historia-03 R | 2023 | 82 | B | 529 | ['images/historia-03-resolvida.png'] | True
+historia-03 T1 | 2023 | 47 | D | 505 | ['images/historia-03-treino1.png'] | True
+historia-03 T2 | 2023 | 77 | E | 502 | ['images/historia-03-treino2.png'] | True
+historia-04 R | 2024 | 77 | A | 569 | ['images/historia-04-resolvida.png'] | True
+historia-04 T1 | 2023 | 87 | B | 445 | ['images/historia-04-treino1.png'] | True
+historia-04 T2 | 2023 | 62 | C | 431 | ['images/historia-04-treino2.png'] | True
+historia-05 R | 2023 | 70 | C | 555 | ['images/historia-05-resolvida.png'] | True
+historia-05 T1 | 2023 | 80 | A | 458 | ['images/historia-05-treino1.png'] | True
+historia-05 T2 | 2024 | 85 | A | 495 | ['images/historia-05-treino2.png'] | True
+geografia-01 R | 2024 | 46 | C | 586 | ['images/geografia-01-resolvida.png'] | True
+geografia-01 T1 | 2023 | 53 | B | 443 | ['images/geografia-01-treino1.png'] | True
+geografia-01 T2 | 2024 | 53 | C | 517 | ['images/geografia-01-treino2.png'] | True
+geografia-02 R | 2023 | 76 | D | 601 | ['images/geografia-02-resolvida.png'] | True
+geografia-02 T1 | 2023 | 67 | B | 450 | ['images/geografia-02-treino1.png'] | True
+geografia-02 T2 | 2024 | 79 | E | 411 | ['images/geografia-02-treino2.png'] | True
+geografia-03 R | 2024 | 70 | E | 526 | ['images/geografia-03-resolvida.png'] | True
+geografia-03 T1 | 2023 | 71 | A | 460 | ['images/geografia-03-treino1.png'] | True
+geografia-03 T2 | 2023 | 85 | D | 533 | ['images/geografia-03-treino2.png'] | True
+geografia-04 R | 2024 | 86 | D | 538 | ['images/geografia-04-resolvida.png'] | True
+geografia-04 T1 | 2024 | 68 | E | 479 | ['images/geografia-04-treino1.png'] | True
+geografia-04 T2 | 2023 | 89 | D | 525 | ['images/geografia-04-treino2.png'] | True
+filosofia-01 R | 2024 | 58 | D | 534 | ['images/filosofia-01-resolvida.png'] | True
+filosofia-01 T1 | 2023 | 90 | B | 476 | ['images/filosofia-01-treino1.png'] | True
+filosofia-01 T2 | 2023 | 57 | E | 418 | ['images/filosofia-01-treino2.png'] | True
+filosofia-02 R | 2024 | 82 | C | 557 | ['images/filosofia-02-resolvida.png'] | True
+filosofia-02 T1 | 2024 | 62 | A | 457 | ['images/filosofia-02-treino1.png'] | True
+filosofia-02 T2 | 2024 | 78 | B | 550 | ['images/filosofia-02-treino2.png'] | True
+filosofia-03 R | 2024 | 76 | E | 508 | ['images/filosofia-03-resolvida.png'] | True
+filosofia-03 T1 | 2023 | 54 | A | 508 | ['images/filosofia-03-treino1.png'] | True
+filosofia-03 T2 | 2024 | 55 | B | 397 | ['images/filosofia-03-treino2.png'] | True
+sociologia-01 R | 2024 | 90 | C | 580 | ['images/sociologia-01-resolvida.png'] | True
+sociologia-01 T1 | 2023 | 61 | E | 440 | ['images/sociologia-01-treino1.png'] | True
+sociologia-01 T2 | 2023 | 55 | A | 529 | ['images/sociologia-01-treino2.png'] | True
+sociologia-02 R | 2023 | 60 | D | 503 | ['images/sociologia-02-resolvida.png'] | True
+sociologia-02 T1 | 2024 | 57 | D | 453 | ['images/sociologia-02-treino1.png'] | True
+sociologia-02 T2 | 2024 | 54 | D | 421 | ['images/sociologia-02-treino2.png'] | True
+sociologia-03 R | 2024 | 52 | B | 507 | ['images/sociologia-03-resolvida.png'] | True
+sociologia-03 T1 | 2024 | 65 | D | 492 | ['images/sociologia-03-treino1.png'] | True
+sociologia-03 T2 | 2024 | 63 | B | 505 | ['images/sociologia-03-treino2.png'] | True
+biologia-01 R | 2024 | 91 | C | 613 | ['images/biologia-01-resolvida.png'] | True
+biologia-01 T1 | 2023 | 104 | B | 492 | ['images/biologia-01-treino1.png'] | True
+biologia-01 T2 | 2024 | 97 | C | 499 | ['images/biologia-01-treino2.png'] | True
+biologia-02 R | 2024 | 135 | B | 598 | ['images/biologia-02-resolvida.png'] | True
+biologia-02 T1 | 2023 | 99 | C | 467 | ['images/biologia-02-treino1.png'] | True
+biologia-02 T2 | 2024 | 113 | A | 404 | ['images/biologia-02-treino2.png'] | True
+biologia-03 R | 2024 | 116 | E | 655 | ['images/biologia-03-resolvida.png'] | True
+biologia-03 T1 | 2023 | 109 | D | 486 | ['images/biologia-03-treino1.png'] | True
+biologia-03 T2 | 2024 | 134 | D | 432 | ['images/biologia-03-treino2.png'] | True
+biologia-04 R | 2023 | 105 | D | 407 | ['images/biologia-04-resolvida.png'] | True
+biologia-04 T1 | 2024 | 127 | D | 463 | ['images/biologia-04-treino1.png'] | True
+biologia-04 T2 | 2024 | 132 | B | 505 | ['images/biologia-04-treino2.png'] | True
+biologia-05 R | 2024 | 133 | D | 569 | ['images/biologia-05-resolvida.png'] | True
+biologia-05 T1 | 2023 | 132 | B | 443 | ['images/biologia-05-treino1.png'] | True
+biologia-05 T2 | 2024 | 131 | B | 487 | ['images/biologia-05-treino2.png'] | True
+fisica-01 R | 2023 | 106 | C | 521 | ['images/fisica-01-resolvida.png'] | True
+fisica-01 T1 | 2024 | 104 | B | 490 | ['images/fisica-01-treino1.png'] | True
+fisica-01 T2 | 2023 | 130 | A | 500 | ['images/fisica-01-treino2.png'] | True
+fisica-02 R | 2024 | 119 | B | 619 | ['images/fisica-02-resolvida.png'] | True
+fisica-02 T1 | 2024 | 114 | C | 464 | ['images/fisica-02-treino1.png'] | True
+fisica-02 T2 | 2023 | 135 | B | 419 | ['images/fisica-02-treino2.png'] | True
+fisica-03 R | 2023 | 97 | C | 452 | ['images/fisica-03-resolvida.png'] | True
+fisica-03 T1 | 2024 | 103 | C | 446 | ['images/fisica-03-treino1.png'] | True
+fisica-03 T2 | 2024 | 95 | A | 513 | ['images/fisica-03-treino2.png'] | True
+fisica-04 R | 2024 | 117 | D | 596 | ['images/fisica-04-resolvida.png'] | True
+fisica-04 T1 | 2024 | 118 | C | 492 | ['images/fisica-04-treino1.png'] | True
+fisica-04 T2 | 2024 | 100 | E | 554 | ['images/fisica-04-treino2.png'] | True
+fisica-05 R | 2023 | 98 | C | 518 | ['images/fisica-05-resolvida.png'] | True
+fisica-05 T1 | 2024 | 109 | B | 580 | ['images/fisica-05-treino1.png'] | True
+fisica-05 T2 | 2023 | 101 | D | 466 | ['images/fisica-05-treino2.png'] | True
+quimica-01 R | 2024 | 92 | A | 580 | ['images/quimica-01-resolvida.png'] | True
+quimica-01 T1 | 2024 | 98 | C | 520 | ['images/quimica-01-treino1.png'] | True
+quimica-01 T2 | 2023 | 94 | A | 469 | ['images/quimica-01-treino2.png'] | True
+quimica-02 R | 2023 | 129 | B | 617 | ['images/quimica-02-resolvida.png'] | True
+quimica-02 T1 | 2024 | 108 | D | 460 | ['images/quimica-02-treino1.png'] | True
+quimica-02 T2 | 2023 | 128 | D | 420 | ['images/quimica-02-treino2.png'] | True
+quimica-03 R | 2024 | 94 | D | 484 | ['images/quimica-03-resolvida.png'] | True
+quimica-03 T1 | 2023 | 110 | B | 571 | ['images/quimica-03-treino1.png'] | True
+quimica-03 T2 | 2024 | 125 | A | 529 | ['images/quimica-03-treino2.png'] | True
+quimica-04 R | 2024 | 120 | C | 639 | ['images/quimica-04-resolvida.png'] | True
+quimica-04 T1 | 2024 | 101 | E | 494 | ['images/quimica-04-treino1.png'] | True
+quimica-04 T2 | 2023 | 125 | E | 451 | ['images/quimica-04-treino2.png'] | True
+quimica-05 R | 2024 | 96 | A | 538 | ['images/quimica-05-resolvida.png'] | True
+quimica-05 T1 | 2023 | 108 | C | 476 | ['images/quimica-05-treino1.png'] | True
+quimica-05 T2 | 2023 | 134 | E | 597 | ['images/quimica-05-treino2.png'] | True
+quimica-06 R | 2023 | 96 | C | 596 | ['images/quimica-06-resolvida.png'] | True
+quimica-06 T1 | 2023 | 117 | D | 477 | ['images/quimica-06-treino1.png'] | True
+quimica-06 T2 | 2023 | 116 | E | 504 | ['images/quimica-06-treino2.png'] | True
+matematica-01 R | 2024 | 178 | B | 524 | ['images/matematica-01-resolvida.png'] | True
+matematica-01 T1 | 2024 | 163 | A | 470 | ['images/matematica-01-treino1.png'] | True
+matematica-01 T2 | 2023 | 140 | A | 482 | ['images/matematica-01-treino2.png'] | True
+matematica-02 R | 2024 | 166 | A | 564 | ['images/matematica-02-resolvida.png'] | True
+matematica-02 T1 | 2023 | 170 | D | 559 | ['images/matematica-02-treino1.png'] | True
+matematica-02 T2 | 2024 | 177 | B | 419 | ['images/matematica-02-treino2.png'] | True
+matematica-03 R | 2024 | 169 | A | 493 | ['images/matematica-03-resolvida.png'] | True
+matematica-03 T1 | 2023 | 159 | D | 428 | ['images/matematica-03-treino1.png'] | True
+matematica-03 T2 | 2023 | 153 | A | 537 | ['images/matematica-03-treino2.png'] | True
+matematica-04 R | 2024 | 155 | E | 507 | ['images/matematica-04-resolvida.png'] | True
+matematica-04 T1 | 2024 | 147 | A | 508 | ['images/matematica-04-treino1.png'] | True
+matematica-04 T2 | 2023 | 175 | D | 433 | ['images/matematica-04-treino2.png'] | True
+matematica-05 R | 2024 | 151 | D | 516 | ['images/matematica-05-resolvida.png'] | True
+matematica-05 T1 | 2023 | 137 | C | 535 | ['images/matematica-05-treino1.png'] | True
+matematica-05 T2 | 2023 | 147 | B | 527 | ['images/matematica-05-treino2.png'] | True
+matematica-06 R | 2024 | 165 | B | 592 | ['images/matematica-06-resolvida.png'] | True
+matematica-06 T1 | 2024 | 149 | E | 642 | ['images/matematica-06-treino1.png'] | True
+matematica-06 T2 | 2023 | 158 | A | 513 | ['images/matematica-06-treino2.png'] | True
+matematica-07 R | 2024 | 154 | C | 502 | ['images/matematica-07-resolvida.png'] | True
+matematica-07 T1 | 2024 | 164 | B | 405 | ['images/matematica-07-treino1.png'] | True
+matematica-07 T2 | 2023 | 154 | B | 481 | ['images/matematica-07-treino2.png'] | True
+
+arquivos de imagem: 156
+resolvidas com letra extraida: 52/52
+arquivos faltando: []

@@ -1,0 +1,4 @@
+subjects: 13
+units: 52
+question slots: 156
+anomalias: 0
