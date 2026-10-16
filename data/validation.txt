@@ -182,6 +182,6 @@ matematica-07 R | 2024 | 154 | C | 502 | ['images/matematica-07-resolvida.png'] 
 matematica-07 T1 | 2024 | 164 | B | 405 | ['images/matematica-07-treino1.png'] | True
 matematica-07 T2 | 2023 | 154 | B | 481 | ['images/matematica-07-treino2.png'] | True
 
-arquivos de imagem: 156
+arquivos de imagem: 338
 resolvidas com letra extraida: 52/52
 arquivos faltando: []
