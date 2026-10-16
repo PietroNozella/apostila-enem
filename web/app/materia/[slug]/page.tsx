@@ -7,6 +7,16 @@ export function generateStaticParams() {
   return subjects.map((subject) => ({ slug: subject.id }));
 }
 
+export async function generateMetadata(props: PageProps<'/materia/[slug]'>) {
+  const { slug } = await props.params;
+  const subject = getSubject(slug);
+  if (!subject) return {};
+  return {
+    title: subject.name,
+    description: `${subject.area} — ${subject.units.length} unidades de estudo para o ENEM.`,
+  };
+}
+
 export default async function Page(props: PageProps<'/materia/[slug]'>) {
   const { slug } = await props.params;
   const subject = getSubject(slug);

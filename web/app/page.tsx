@@ -37,7 +37,7 @@ export default function Home() {
       </ul>
 
       <ProgressoSincronizacao />
-      <footer className="mt-14 border-t border-neutral-200 pt-6 text-sm text-neutral-500">
+      <footer className="mt-6 border-t border-neutral-200 pt-6 text-sm text-neutral-500">
         Questões do ENEM (INEP, CC BY-ND 3.0) extraídas da apostila “ENEM 2026 –
         Estudo por Questões” V3.
       </footer>

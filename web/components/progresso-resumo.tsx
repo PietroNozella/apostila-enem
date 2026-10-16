@@ -25,7 +25,7 @@ export default function ProgressoResumo({ prefix, total, className = "" }: Progr
 
   return (
     <span
-      className={`ml-auto shrink-0 text-sm ${
+      className={`revelar ml-auto shrink-0 text-sm ${
         completo ? "font-medium text-emerald-700" : "text-neutral-500"
       } ${className}`}
     >

@@ -88,7 +88,7 @@ export default function ProgressoSincronizacao() {
   }
 
   return (
-    <section className="mt-8 rounded-xl border border-neutral-200 p-5">
+    <section className="mt-14 border-t border-neutral-200 pt-6">
       <h2 className="text-sm font-semibold">Progresso entre dispositivos</h2>
       <p className="mt-1 text-sm text-neutral-500">
         O progresso fica neste navegador. Gere um código para continuar nele em outro aparelho ou

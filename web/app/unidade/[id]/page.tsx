@@ -8,7 +8,19 @@ export function generateStaticParams() {
   return subjects.flatMap((subject) => subject.units.map((unit) => ({ id: unit.id })));
 }
 
+export async function generateMetadata(props: PageProps<'/unidade/[id]'>) {
+  const { id } = await props.params;
+  const found = getUnit(id);
+  if (!found) return {};
+  const { subject, unit } = found;
+  return {
+    title: unit.title,
+    description: `${subject.name} · Unidade ${unit.number} — explicação + 3 questões comentadas do ENEM.`,
+  };
+}
+
 function QuestionSection({
+  id,
   heading,
   exam,
   question,
@@ -16,6 +28,7 @@ function QuestionSection({
   answer,
   commentary,
 }: {
+  id?: string;
   heading: string;
   exam: number;
   question: number;
@@ -24,7 +37,7 @@ function QuestionSection({
   commentary: string;
 }) {
   return (
-    <section className="mt-12">
+    <section id={id} className="mt-12">
       <h2 className="text-lg font-semibold">
         {heading}{" "}
         <span className="text-sm font-normal text-neutral-500">
@@ -67,8 +80,14 @@ export default async function Page(props: PageProps<'/unidade/[id]'>) {
       <p className="mt-1 text-sm text-neutral-500">
         {subject.name} · Unidade {unit.number} · Explicação + 3 questões
       </p>
+      <nav className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+        <a href="#explicacao" className="text-neutral-500 transition-colors hover:text-neutral-900">Explicação</a>
+        <a href="#resolvida" className="text-neutral-500 transition-colors hover:text-neutral-900">Resolvida</a>
+        <a href="#treino-1" className="text-neutral-500 transition-colors hover:text-neutral-900">Treino 1</a>
+        <a href="#treino-2" className="text-neutral-500 transition-colors hover:text-neutral-900">Treino 2</a>
+      </nav>
 
-      <section className="mt-10">
+      <section id="explicacao" className="mt-10">
         <h2 className="text-lg font-semibold">Explicação da unidade</h2>
         <div className="mt-3 space-y-4 leading-relaxed">
           {paragraphs(unit.explanation).map((paragraph, i) => (
@@ -78,6 +97,7 @@ export default async function Page(props: PageProps<'/unidade/[id]'>) {
       </section>
 
       <QuestionSection
+        id="resolvida"
         heading="Questão resolvida"
         exam={unit.resolved.exam}
         question={unit.resolved.question}
@@ -89,6 +109,7 @@ export default async function Page(props: PageProps<'/unidade/[id]'>) {
       {unit.training.map((training) => (
         <TreinoInterativo
           key={training.n}
+          id={`treino-${training.n}`}
           questionId={`${unit.id}-treino${training.n}`}
           heading={`Treino ${training.n}`}
           exam={training.exam}

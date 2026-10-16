@@ -13,8 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ENEM Treino",
+  title: {
+    default: "ENEM Treino",
+    template: "%s — ENEM Treino",
+  },
   description: "Estude por unidades e treine com questões comentadas do ENEM.",
+  openGraph: {
+    title: "ENEM Treino",
+    description: "Estude por unidades e treine com questões comentadas do ENEM 2023 e 2024.",
+    type: "website",
+    locale: "pt_BR",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

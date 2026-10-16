@@ -14,6 +14,7 @@ interface TreinoInterativoProps {
   image: string;
   answer: string;
   paragraphs: string[];
+  id?: string;
 }
 
 export default function TreinoInterativo({
@@ -24,6 +25,7 @@ export default function TreinoInterativo({
   image,
   answer,
   paragraphs,
+  id,
 }: TreinoInterativoProps) {
   const [choice, setChoice] = useState<string | null>(null);
 
@@ -49,8 +51,17 @@ export default function TreinoInterativo({
     setChoice(null);
   }
 
+  function classeDoBotao(letra: string): string {
+    if (!answered) {
+      return "border-neutral-300 text-neutral-900 hover:border-neutral-700 hover:bg-neutral-50";
+    }
+    if (letra === answer) return "border-emerald-600 bg-emerald-600 text-white";
+    if (letra === choice) return "border-red-300 bg-red-50 text-red-700";
+    return "border-neutral-200 text-neutral-400";
+  }
+
   return (
-    <section className="mt-12">
+    <section id={id} className="mt-12">
       <h2 className="text-lg font-semibold">
         {heading}{" "}
         <span className="text-sm font-normal text-neutral-500">
@@ -64,24 +75,22 @@ export default function TreinoInterativo({
         className="mt-4 w-full rounded-xl border border-neutral-200"
       />
 
-      {!answered ? (
-        <div className="mt-6">
-          <p className="text-sm text-neutral-500">Marque a alternativa — gabarito e comentário saem na hora.</p>
-          <div className="mt-3 flex flex-wrap gap-3">
-            {LETTERS.map((letter) => (
-              <button
-                key={letter}
-                type="button"
-                onClick={() => responder(letter)}
-                className="min-w-14 rounded-lg border border-neutral-300 px-4 py-2.5 text-base font-medium transition-colors hover:border-neutral-700 hover:bg-neutral-50"
-              >
-                {letter}
-              </button>
-            ))}
-          </div>
-        </div>
-      ) : (
-        <>
+      <div className="mt-6 flex flex-wrap gap-3">
+        {LETTERS.map((letter) => (
+          <button
+            key={letter}
+            type="button"
+            onClick={() => responder(letter)}
+            disabled={answered}
+            className={`min-w-14 rounded-lg border px-4 py-2.5 text-base font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 ${classeDoBotao(letter)}`}
+          >
+            {letter}
+          </button>
+        ))}
+      </div>
+
+      {answered && (
+        <div className="revelar">
           {choice === answer ? (
             <p className="mt-6 inline-block rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-sm font-medium text-emerald-800">
               Você acertou — gabarito <strong>{answer}</strong>.
@@ -103,7 +112,7 @@ export default function TreinoInterativo({
           >
             Refazer questão
           </button>
-        </>
+        </div>
       )}
     </section>
   );
