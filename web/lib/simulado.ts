@@ -14,8 +14,8 @@ export interface QuestaoSimulado {
   materia: string;
   unidadeId: string;
   unidadeTitulo: string;
-  /** Âncora do comentário na página da unidade (ex.: "#treino-1"). */
-  ancora: string;
+  /** Âncora do comentário na página da unidade; null para questões do banco de provas. */
+  ancora: string | null;
 }
 
 export interface SimuladoSalvo {

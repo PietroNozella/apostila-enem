@@ -1,0 +1,8 @@
+prova ENEM 2025: 182 questoes no banco
+  Ciências Humanas: 45
+  Ciências da Natureza: 43
+  Espanhol: 5
+  Inglês: 5
+  Linguagens: 40
+  Matemática: 44
+anuladas (sem letra no gabarito): enem2025-115, enem2025-121, enem2025-178

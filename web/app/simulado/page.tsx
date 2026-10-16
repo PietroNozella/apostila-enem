@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { subjects } from "@/lib/content";
+import { banco } from "@/lib/banco";
 import SimuladoProva from "@/components/simulado-prova";
 import type { QuestaoSimulado } from "@/lib/simulado";
 
 export const metadata: Metadata = {
   title: "Simulado",
   description:
-    "45 questões do ENEM sorteadas no banco, cronômetro de 2h30 e gabarito comentado no fim, no formato da prova.",
+    "45 questões sorteadas da apostila e das provas oficiais do ENEM, cronômetro de 2h30 e gabarito no fim, no formato da prova.",
 };
 
 export default function PaginaSimulado() {
@@ -39,6 +40,19 @@ export default function PaginaSimulado() {
         })),
       );
     }
+  }
+  for (const questao of banco) {
+    catalogo.push({
+      id: questao.id,
+      image: `/${questao.image}`,
+      exam: questao.exam,
+      question: questao.question,
+      answer: questao.answer,
+      materia: questao.materia,
+      unidadeId: "",
+      unidadeTitulo: "",
+      ancora: null,
+    });
   }
 
   return (

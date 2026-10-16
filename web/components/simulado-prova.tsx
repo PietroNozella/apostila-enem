@@ -304,12 +304,14 @@ export default function SimuladoProva({ catalogo }: { catalogo: QuestaoSimulado[
                   <span className="text-neutral-700">
                     Gabarito: <strong>{questao.answer}</strong>
                   </span>
-                  <Link
-                    href={`/unidade/${questao.unidadeId}${questao.ancora}`}
-                    className="ml-auto text-neutral-500 transition-colors hover:text-neutral-900"
-                  >
-                    Ver comentário →
-                  </Link>
+                  {questao.ancora && (
+                    <Link
+                      href={`/unidade/${questao.unidadeId}${questao.ancora}`}
+                      className="ml-auto text-neutral-500 transition-colors hover:text-neutral-900"
+                    >
+                      Ver comentário →
+                    </Link>
+                  )}
                 </div>
                 <details className="mt-2">
                   <summary className="cursor-pointer text-sm text-neutral-500 transition-colors hover:text-neutral-900">

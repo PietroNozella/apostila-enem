@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { meta, subjects } from "@/lib/content";
+import { banco } from "@/lib/banco";
 import ProgressoResumo from "@/components/progresso-resumo";
 import ProgressoSincronizacao from "@/components/progresso-sincronizacao";
 
@@ -10,7 +11,8 @@ export default function Home() {
       <h1 className="text-3xl font-bold tracking-tight">ENEM Treino</h1>
       <p className="mt-2 text-neutral-500">
         {meta.units} unidades de estudo em {meta.subjects} matérias ·{" "}
-        {meta.questions} questões do ENEM 2023 e 2024 com resolução comentada
+        {meta.questions} questões do ENEM 2023 e 2024 com resolução comentada ·{" "}
+        {banco.length} questões da prova oficial do ENEM 2025 no simulado
       </p>
       <ProgressoResumo prefix="" total={treinosTotal} className="mt-1 block" />
 

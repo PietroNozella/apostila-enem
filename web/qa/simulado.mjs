@@ -60,6 +60,36 @@ await page.waitForTimeout(300);
 await page.getByRole("button", { name: "Abandonar" }).click();
 await page.waitForTimeout(300);
 console.log("abandonar volta à intro:", (await page.getByText("Como funciona").count()) > 0 ? "sim" : "NAO");
+console.log(
+  "intro com pool mesclado:",
+  (await page.getByText(/questões sorteadas entre as \d+/).count()) > 0 ? "sim" : "NAO"
+);
+
+// mescla de pools: questao do banco (prova oficial) sem link de comentario; apostila com link
+await page.evaluate(() => {
+  localStorage.setItem(
+    "enem-treino:simulado",
+    JSON.stringify({
+      iniciadoEm: "2026-10-16T12:00:00.000Z",
+      expiraEm: "2026-10-16T14:30:00.000Z",
+      questoes: ["enem2025-6", "portugues-01-treino1"],
+      respostas: { "enem2025-6": "A", "portugues-01-treino1": "B" },
+      finalizadoEm: "2026-10-16T13:00:00.000Z",
+    })
+  );
+});
+await page.reload({ waitUntil: "load" });
+await page.waitForTimeout(600);
+const linhaBanco = page.locator("li").filter({ hasText: "ENEM 2025 q6" });
+const linhaApostila = page.locator("li").filter({ hasText: "Português" });
+console.log(
+  "banco sem link de comentario:",
+  (await linhaBanco.locator("a").count()) === 0 ? "sim" : "NAO"
+);
+console.log(
+  "apostila com link de comentario:",
+  (await linhaApostila.locator("a").count()) === 1 ? "sim" : "NAO"
+);
 
 await desktop.close();
 

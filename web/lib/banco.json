@@ -1,0 +1,1834 @@
+{
+ "meta": {
+  "source": "Provas oficiais do ENEM 2025 (INEP), impresso D1 CD1 e D2 CD5",
+  "exam": 2025,
+  "questoes": 182,
+  "anuladas": [
+   "enem2025-115",
+   "enem2025-121",
+   "enem2025-178"
+  ]
+ },
+ "questoes": [
+  {
+   "id": "enem2025-1-ing",
+   "exam": 2025,
+   "question": 1,
+   "image": "images/enem2025-1-ing.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Inglês",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-2-ing",
+   "exam": 2025,
+   "question": 2,
+   "image": "images/enem2025-2-ing.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Inglês",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-3-ing",
+   "exam": 2025,
+   "question": 3,
+   "image": "images/enem2025-3-ing.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Inglês",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-4-ing",
+   "exam": 2025,
+   "question": 4,
+   "image": "images/enem2025-4-ing.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Inglês",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-5-ing",
+   "exam": 2025,
+   "question": 5,
+   "image": "images/enem2025-5-ing.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Inglês",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-1-esp",
+   "exam": 2025,
+   "question": 1,
+   "image": "images/enem2025-1-esp.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Espanhol",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-2-esp",
+   "exam": 2025,
+   "question": 2,
+   "image": "images/enem2025-2-esp.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Espanhol",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-3-esp",
+   "exam": 2025,
+   "question": 3,
+   "image": "images/enem2025-3-esp.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Espanhol",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-4-esp",
+   "exam": 2025,
+   "question": 4,
+   "image": "images/enem2025-4-esp.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Espanhol",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-5-esp",
+   "exam": 2025,
+   "question": 5,
+   "image": "images/enem2025-5-esp.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Espanhol",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-6",
+   "exam": 2025,
+   "question": 6,
+   "image": "images/enem2025-6.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-7",
+   "exam": 2025,
+   "question": 7,
+   "image": "images/enem2025-7.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-8",
+   "exam": 2025,
+   "question": 8,
+   "image": "images/enem2025-8.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-9",
+   "exam": 2025,
+   "question": 9,
+   "image": "images/enem2025-9.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-10",
+   "exam": 2025,
+   "question": 10,
+   "image": "images/enem2025-10.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-11",
+   "exam": 2025,
+   "question": 11,
+   "image": "images/enem2025-11.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-12",
+   "exam": 2025,
+   "question": 12,
+   "image": "images/enem2025-12.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-13",
+   "exam": 2025,
+   "question": 13,
+   "image": "images/enem2025-13.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-14",
+   "exam": 2025,
+   "question": 14,
+   "image": "images/enem2025-14.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-15",
+   "exam": 2025,
+   "question": 15,
+   "image": "images/enem2025-15.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-16",
+   "exam": 2025,
+   "question": 16,
+   "image": "images/enem2025-16.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-17",
+   "exam": 2025,
+   "question": 17,
+   "image": "images/enem2025-17.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-18",
+   "exam": 2025,
+   "question": 18,
+   "image": "images/enem2025-18.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-19",
+   "exam": 2025,
+   "question": 19,
+   "image": "images/enem2025-19.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-20",
+   "exam": 2025,
+   "question": 20,
+   "image": "images/enem2025-20.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-21",
+   "exam": 2025,
+   "question": 21,
+   "image": "images/enem2025-21.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-22",
+   "exam": 2025,
+   "question": 22,
+   "image": "images/enem2025-22.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-23",
+   "exam": 2025,
+   "question": 23,
+   "image": "images/enem2025-23.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-24",
+   "exam": 2025,
+   "question": 24,
+   "image": "images/enem2025-24.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-25",
+   "exam": 2025,
+   "question": 25,
+   "image": "images/enem2025-25.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-26",
+   "exam": 2025,
+   "question": 26,
+   "image": "images/enem2025-26.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-27",
+   "exam": 2025,
+   "question": 27,
+   "image": "images/enem2025-27.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-28",
+   "exam": 2025,
+   "question": 28,
+   "image": "images/enem2025-28.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-29",
+   "exam": 2025,
+   "question": 29,
+   "image": "images/enem2025-29.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-30",
+   "exam": 2025,
+   "question": 30,
+   "image": "images/enem2025-30.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-31",
+   "exam": 2025,
+   "question": 31,
+   "image": "images/enem2025-31.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-32",
+   "exam": 2025,
+   "question": 32,
+   "image": "images/enem2025-32.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-33",
+   "exam": 2025,
+   "question": 33,
+   "image": "images/enem2025-33.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-34",
+   "exam": 2025,
+   "question": 34,
+   "image": "images/enem2025-34.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-35",
+   "exam": 2025,
+   "question": 35,
+   "image": "images/enem2025-35.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-36",
+   "exam": 2025,
+   "question": 36,
+   "image": "images/enem2025-36.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-37",
+   "exam": 2025,
+   "question": 37,
+   "image": "images/enem2025-37.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-38",
+   "exam": 2025,
+   "question": 38,
+   "image": "images/enem2025-38.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-39",
+   "exam": 2025,
+   "question": 39,
+   "image": "images/enem2025-39.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-40",
+   "exam": 2025,
+   "question": 40,
+   "image": "images/enem2025-40.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-41",
+   "exam": 2025,
+   "question": 41,
+   "image": "images/enem2025-41.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-42",
+   "exam": 2025,
+   "question": 42,
+   "image": "images/enem2025-42.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-43",
+   "exam": 2025,
+   "question": 43,
+   "image": "images/enem2025-43.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-44",
+   "exam": 2025,
+   "question": 44,
+   "image": "images/enem2025-44.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-45",
+   "exam": 2025,
+   "question": 45,
+   "image": "images/enem2025-45.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Linguagens",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-46",
+   "exam": 2025,
+   "question": 46,
+   "image": "images/enem2025-46.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-47",
+   "exam": 2025,
+   "question": 47,
+   "image": "images/enem2025-47.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-48",
+   "exam": 2025,
+   "question": 48,
+   "image": "images/enem2025-48.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-49",
+   "exam": 2025,
+   "question": 49,
+   "image": "images/enem2025-49.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-50",
+   "exam": 2025,
+   "question": 50,
+   "image": "images/enem2025-50.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-51",
+   "exam": 2025,
+   "question": 51,
+   "image": "images/enem2025-51.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-52",
+   "exam": 2025,
+   "question": 52,
+   "image": "images/enem2025-52.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-53",
+   "exam": 2025,
+   "question": 53,
+   "image": "images/enem2025-53.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-54",
+   "exam": 2025,
+   "question": 54,
+   "image": "images/enem2025-54.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-55",
+   "exam": 2025,
+   "question": 55,
+   "image": "images/enem2025-55.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-56",
+   "exam": 2025,
+   "question": 56,
+   "image": "images/enem2025-56.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-57",
+   "exam": 2025,
+   "question": 57,
+   "image": "images/enem2025-57.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-58",
+   "exam": 2025,
+   "question": 58,
+   "image": "images/enem2025-58.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-59",
+   "exam": 2025,
+   "question": 59,
+   "image": "images/enem2025-59.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-60",
+   "exam": 2025,
+   "question": 60,
+   "image": "images/enem2025-60.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-61",
+   "exam": 2025,
+   "question": 61,
+   "image": "images/enem2025-61.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-62",
+   "exam": 2025,
+   "question": 62,
+   "image": "images/enem2025-62.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-63",
+   "exam": 2025,
+   "question": 63,
+   "image": "images/enem2025-63.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-64",
+   "exam": 2025,
+   "question": 64,
+   "image": "images/enem2025-64.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-65",
+   "exam": 2025,
+   "question": 65,
+   "image": "images/enem2025-65.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-66",
+   "exam": 2025,
+   "question": 66,
+   "image": "images/enem2025-66.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-67",
+   "exam": 2025,
+   "question": 67,
+   "image": "images/enem2025-67.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-68",
+   "exam": 2025,
+   "question": 68,
+   "image": "images/enem2025-68.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-69",
+   "exam": 2025,
+   "question": 69,
+   "image": "images/enem2025-69.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-70",
+   "exam": 2025,
+   "question": 70,
+   "image": "images/enem2025-70.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-71",
+   "exam": 2025,
+   "question": 71,
+   "image": "images/enem2025-71.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-72",
+   "exam": 2025,
+   "question": 72,
+   "image": "images/enem2025-72.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-73",
+   "exam": 2025,
+   "question": 73,
+   "image": "images/enem2025-73.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-74",
+   "exam": 2025,
+   "question": 74,
+   "image": "images/enem2025-74.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-75",
+   "exam": 2025,
+   "question": 75,
+   "image": "images/enem2025-75.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-76",
+   "exam": 2025,
+   "question": 76,
+   "image": "images/enem2025-76.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-77",
+   "exam": 2025,
+   "question": 77,
+   "image": "images/enem2025-77.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-78",
+   "exam": 2025,
+   "question": 78,
+   "image": "images/enem2025-78.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-79",
+   "exam": 2025,
+   "question": 79,
+   "image": "images/enem2025-79.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-80",
+   "exam": 2025,
+   "question": 80,
+   "image": "images/enem2025-80.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-81",
+   "exam": 2025,
+   "question": 81,
+   "image": "images/enem2025-81.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-82",
+   "exam": 2025,
+   "question": 82,
+   "image": "images/enem2025-82.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-83",
+   "exam": 2025,
+   "question": 83,
+   "image": "images/enem2025-83.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-84",
+   "exam": 2025,
+   "question": 84,
+   "image": "images/enem2025-84.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-85",
+   "exam": 2025,
+   "question": 85,
+   "image": "images/enem2025-85.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-86",
+   "exam": 2025,
+   "question": 86,
+   "image": "images/enem2025-86.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-87",
+   "exam": 2025,
+   "question": 87,
+   "image": "images/enem2025-87.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-88",
+   "exam": 2025,
+   "question": 88,
+   "image": "images/enem2025-88.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-89",
+   "exam": 2025,
+   "question": 89,
+   "image": "images/enem2025-89.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-90",
+   "exam": 2025,
+   "question": 90,
+   "image": "images/enem2025-90.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências Humanas",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-91",
+   "exam": 2025,
+   "question": 91,
+   "image": "images/enem2025-91.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-92",
+   "exam": 2025,
+   "question": 92,
+   "image": "images/enem2025-92.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-93",
+   "exam": 2025,
+   "question": 93,
+   "image": "images/enem2025-93.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-94",
+   "exam": 2025,
+   "question": 94,
+   "image": "images/enem2025-94.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-95",
+   "exam": 2025,
+   "question": 95,
+   "image": "images/enem2025-95.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-96",
+   "exam": 2025,
+   "question": 96,
+   "image": "images/enem2025-96.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-97",
+   "exam": 2025,
+   "question": 97,
+   "image": "images/enem2025-97.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-98",
+   "exam": 2025,
+   "question": 98,
+   "image": "images/enem2025-98.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-99",
+   "exam": 2025,
+   "question": 99,
+   "image": "images/enem2025-99.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-100",
+   "exam": 2025,
+   "question": 100,
+   "image": "images/enem2025-100.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-101",
+   "exam": 2025,
+   "question": 101,
+   "image": "images/enem2025-101.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-102",
+   "exam": 2025,
+   "question": 102,
+   "image": "images/enem2025-102.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-103",
+   "exam": 2025,
+   "question": 103,
+   "image": "images/enem2025-103.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-104",
+   "exam": 2025,
+   "question": 104,
+   "image": "images/enem2025-104.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-105",
+   "exam": 2025,
+   "question": 105,
+   "image": "images/enem2025-105.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-106",
+   "exam": 2025,
+   "question": 106,
+   "image": "images/enem2025-106.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-107",
+   "exam": 2025,
+   "question": 107,
+   "image": "images/enem2025-107.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-108",
+   "exam": 2025,
+   "question": 108,
+   "image": "images/enem2025-108.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-109",
+   "exam": 2025,
+   "question": 109,
+   "image": "images/enem2025-109.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-110",
+   "exam": 2025,
+   "question": 110,
+   "image": "images/enem2025-110.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-111",
+   "exam": 2025,
+   "question": 111,
+   "image": "images/enem2025-111.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-112",
+   "exam": 2025,
+   "question": 112,
+   "image": "images/enem2025-112.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-113",
+   "exam": 2025,
+   "question": 113,
+   "image": "images/enem2025-113.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-114",
+   "exam": 2025,
+   "question": 114,
+   "image": "images/enem2025-114.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-116",
+   "exam": 2025,
+   "question": 116,
+   "image": "images/enem2025-116.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-117",
+   "exam": 2025,
+   "question": 117,
+   "image": "images/enem2025-117.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-118",
+   "exam": 2025,
+   "question": 118,
+   "image": "images/enem2025-118.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-119",
+   "exam": 2025,
+   "question": 119,
+   "image": "images/enem2025-119.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-120",
+   "exam": 2025,
+   "question": 120,
+   "image": "images/enem2025-120.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-122",
+   "exam": 2025,
+   "question": 122,
+   "image": "images/enem2025-122.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-123",
+   "exam": 2025,
+   "question": 123,
+   "image": "images/enem2025-123.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-124",
+   "exam": 2025,
+   "question": 124,
+   "image": "images/enem2025-124.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-125",
+   "exam": 2025,
+   "question": 125,
+   "image": "images/enem2025-125.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-126",
+   "exam": 2025,
+   "question": 126,
+   "image": "images/enem2025-126.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-127",
+   "exam": 2025,
+   "question": 127,
+   "image": "images/enem2025-127.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-128",
+   "exam": 2025,
+   "question": 128,
+   "image": "images/enem2025-128.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-129",
+   "exam": 2025,
+   "question": 129,
+   "image": "images/enem2025-129.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-130",
+   "exam": 2025,
+   "question": 130,
+   "image": "images/enem2025-130.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-131",
+   "exam": 2025,
+   "question": 131,
+   "image": "images/enem2025-131.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-132",
+   "exam": 2025,
+   "question": 132,
+   "image": "images/enem2025-132.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-133",
+   "exam": 2025,
+   "question": 133,
+   "image": "images/enem2025-133.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-134",
+   "exam": 2025,
+   "question": 134,
+   "image": "images/enem2025-134.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-135",
+   "exam": 2025,
+   "question": 135,
+   "image": "images/enem2025-135.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Ciências da Natureza",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-136",
+   "exam": 2025,
+   "question": 136,
+   "image": "images/enem2025-136.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-137",
+   "exam": 2025,
+   "question": 137,
+   "image": "images/enem2025-137.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-138",
+   "exam": 2025,
+   "question": 138,
+   "image": "images/enem2025-138.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-139",
+   "exam": 2025,
+   "question": 139,
+   "image": "images/enem2025-139.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-140",
+   "exam": 2025,
+   "question": 140,
+   "image": "images/enem2025-140.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-141",
+   "exam": 2025,
+   "question": 141,
+   "image": "images/enem2025-141.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-142",
+   "exam": 2025,
+   "question": 142,
+   "image": "images/enem2025-142.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-143",
+   "exam": 2025,
+   "question": 143,
+   "image": "images/enem2025-143.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-144",
+   "exam": 2025,
+   "question": 144,
+   "image": "images/enem2025-144.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-145",
+   "exam": 2025,
+   "question": 145,
+   "image": "images/enem2025-145.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-146",
+   "exam": 2025,
+   "question": 146,
+   "image": "images/enem2025-146.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-147",
+   "exam": 2025,
+   "question": 147,
+   "image": "images/enem2025-147.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-148",
+   "exam": 2025,
+   "question": 148,
+   "image": "images/enem2025-148.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-149",
+   "exam": 2025,
+   "question": 149,
+   "image": "images/enem2025-149.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-150",
+   "exam": 2025,
+   "question": 150,
+   "image": "images/enem2025-150.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-151",
+   "exam": 2025,
+   "question": 151,
+   "image": "images/enem2025-151.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-152",
+   "exam": 2025,
+   "question": 152,
+   "image": "images/enem2025-152.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-153",
+   "exam": 2025,
+   "question": 153,
+   "image": "images/enem2025-153.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-154",
+   "exam": 2025,
+   "question": 154,
+   "image": "images/enem2025-154.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-155",
+   "exam": 2025,
+   "question": 155,
+   "image": "images/enem2025-155.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-156",
+   "exam": 2025,
+   "question": 156,
+   "image": "images/enem2025-156.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-157",
+   "exam": 2025,
+   "question": 157,
+   "image": "images/enem2025-157.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-158",
+   "exam": 2025,
+   "question": 158,
+   "image": "images/enem2025-158.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-159",
+   "exam": 2025,
+   "question": 159,
+   "image": "images/enem2025-159.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-160",
+   "exam": 2025,
+   "question": 160,
+   "image": "images/enem2025-160.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-161",
+   "exam": 2025,
+   "question": 161,
+   "image": "images/enem2025-161.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-162",
+   "exam": 2025,
+   "question": 162,
+   "image": "images/enem2025-162.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-163",
+   "exam": 2025,
+   "question": 163,
+   "image": "images/enem2025-163.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-164",
+   "exam": 2025,
+   "question": 164,
+   "image": "images/enem2025-164.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-165",
+   "exam": 2025,
+   "question": 165,
+   "image": "images/enem2025-165.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-166",
+   "exam": 2025,
+   "question": 166,
+   "image": "images/enem2025-166.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-167",
+   "exam": 2025,
+   "question": 167,
+   "image": "images/enem2025-167.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-168",
+   "exam": 2025,
+   "question": 168,
+   "image": "images/enem2025-168.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-169",
+   "exam": 2025,
+   "question": 169,
+   "image": "images/enem2025-169.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-170",
+   "exam": 2025,
+   "question": 170,
+   "image": "images/enem2025-170.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-171",
+   "exam": 2025,
+   "question": 171,
+   "image": "images/enem2025-171.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-172",
+   "exam": 2025,
+   "question": 172,
+   "image": "images/enem2025-172.png",
+   "answer": "D",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-173",
+   "exam": 2025,
+   "question": 173,
+   "image": "images/enem2025-173.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-174",
+   "exam": 2025,
+   "question": 174,
+   "image": "images/enem2025-174.png",
+   "answer": "B",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-175",
+   "exam": 2025,
+   "question": 175,
+   "image": "images/enem2025-175.png",
+   "answer": "E",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-176",
+   "exam": 2025,
+   "question": 176,
+   "image": "images/enem2025-176.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-177",
+   "exam": 2025,
+   "question": 177,
+   "image": "images/enem2025-177.png",
+   "answer": "A",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-179",
+   "exam": 2025,
+   "question": 179,
+   "image": "images/enem2025-179.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  },
+  {
+   "id": "enem2025-180",
+   "exam": 2025,
+   "question": 180,
+   "image": "images/enem2025-180.png",
+   "answer": "C",
+   "answerSource": "inep",
+   "materia": "Matemática",
+   "ancora": null
+  }
+ ]
+}

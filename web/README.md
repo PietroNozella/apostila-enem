@@ -31,10 +31,11 @@ progresso (em `.env.local`, fora do git; as mesmas chaves configuradas na Vercel
 
 ## Simulado
 
-- `/simulado`: 45 questões sorteadas do banco intercalando matérias, cronômetro de
-  2h30 com fechamento automático, navegador de questões e troca de alternativa até
-  finalizar. No fim: placar total e por matéria, gabarito de cada questão e link para
-  o comentário na unidade.
+- `/simulado`: 45 questões sorteadas do pool da apostila (156) mais a prova oficial
+  do ENEM 2025 (`../data/banco.json`, 182 questões), intercalando matérias;
+  cronômetro de 2h30 com fechamento automático, navegador de questões e troca de
+  alternativa até finalizar. No fim: placar total e por matéria, gabarito de cada
+  questão e link para o comentário quando a questão tem unidade na apostila.
 - O estado da prova fica em `localStorage` (`enem-treino:simulado`): reabrir a página
   retoma a prova em andamento; prova expirada fecha sozinha com as respostas salvas.
 - Por design, o simulado não entra na sincronização por código (fica no dispositivo).

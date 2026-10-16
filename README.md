@@ -5,9 +5,10 @@ Base de conteúdo para um app de treino ENEM, extraída da **Apostila ENEM 2026 
 ## Estado atual
 
 - `data/content.json` — 13 matérias, 52 unidades, 156 questões (1 resolvida + 2 treinos por unidade), com explicação em texto, comentários e gabaritos
-- `data/images/` — 156 imagens (enunciado + alternativas de cada questão; questões divididas entre páginas foram costuradas)
-- Todas as 156 respostas verificadas contra os gabaritos oficiais do INEP — 0 divergências (`data/gabarito_check.txt`)
-- App em `web/`: catálogo navegável, treino interativo com feedback imediato, progresso local com contadores, sincronização entre dispositivos por código de estudo (Supabase) e modo simulado (45 questões cronometradas com gabarito no fim) — detalhes em `web/README.md`
+- `data/images/` — imagens dos enunciados (156 da apostila + questões das provas oficiais; questões divididas entre páginas/colunas são costuradas)
+- Todas as 156 respostas da apostila verificadas contra os gabaritos oficiais do INEP — 0 divergências (`data/gabarito_check.txt`)
+- `data/banco.json` — questões extraídas da prova oficial do ENEM 2025 (INEP), com gabarito oficial; questões anuladas ficam de fora (`data/prova_check.txt`)
+- App em `web/`: catálogo navegável, treino interativo com feedback imediato, progresso local com contadores, sincronização entre dispositivos por código de estudo (Supabase) e modo simulado (45 questões cronometradas, sorteadas da apostila + provas oficiais, com gabarito no fim) — detalhes em `web/README.md`
 
 ## Pipeline (reproduzir)
 
@@ -16,6 +17,7 @@ python tools/build_content.py "caminho/Apostila de estudo ENEM.pdf"
 python tools/parse_gabaritos.py
 python tools/apply_gabaritos.py
 python tools/validate_content.py
+python tools/extract_prova.py 2025
 ```
 
 | Script | Função |
@@ -24,6 +26,7 @@ python tools/validate_content.py
 | `parse_gabaritos.py` | Lê os gabaritos oficiais em `data/gabaritos_inep/` — atenção: questões 1-5 do 1º dia têm 2 colunas (INGLÊS/ESPANHOL) |
 | `apply_gabaritos.py` | Cruza respostas da apostila com o INEP; preenche letras das resolvidas; gera `data/gabarito_check.txt`. Idempotente: re-executar não altera `content.json` |
 | `validate_content.py` | Relatório de qualidade (imagens, tamanhos, respostas) em `data/validation.txt` |
+| `extract_prova.py` | Extrai as questões das provas oficiais (`data/provas_inep/<ano>/`) para o banco do simulado: recorta por marcador "Questão NN", costura páginas/colunas, prefixa textos de grupo e gera `data/banco.json` + `data/prova_check.txt` |
 
 ## Fontes oficiais (INEP)
 
@@ -31,6 +34,10 @@ Prefixo `https://download.inep.gov.br/enem/provas_e_gabaritos/`:
 
 - `2023_GB_impresso_D1_CD1.pdf`, `2023_GB_impresso_D2_CD5.pdf`
 - `2024_GB_impresso_D1_CD1.pdf`, `2024_GB_impresso_D2_CD5.pdf`
+- `2025_PV_impresso_D1_CD1.pdf`, `2025_PV_impresso_D2_CD5.pdf` (provas, usadas pelo `extract_prova.py`)
+- `2025_GB_impresso_D1_CD1.pdf`, `2025_GB_impresso_D2_CD5.pdf`
+
+Observações do ENEM 2025: o 1º dia imprime as duas versões das questões 1-5 (opção inglês/espanhol) — cada versão vira uma questão do banco com sufixo `-ing`/`-esp`; as questões 115, 121 e 178 do 2º dia foram anuladas pelo INEP e ficam de fora.
 
 ## Aplicação (web/)
 

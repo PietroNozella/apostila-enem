@@ -15,17 +15,24 @@ Saida:
 import json
 import os
 import re
+import sys
 
 import pymupdf
 
-GAB_DIR = r"C:\Users\Micro\enem-treino\data\gabaritos_inep"
+PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+GAB_DIR = os.path.join(PROJ, "data", "gabaritos_inep")
 FILES = {
     "2023-1": "2023_d1_cd1.pdf",
     "2023-2": "2023_d2_cd5.pdf",
     "2024-1": "2024_d1_cd1.pdf",
     "2024-2": "2024_d2_cd5.pdf",
+    "2025-1": "2025_d1_cd1.pdf",
+    "2025-2": "2025_d2_cd5.pdf",
 }
 LETTER = re.compile(r"^[A-E]$")
+
+# Faixa esperada por chave, para validar a completude do parse
+ESPERADO = {"1": (6, 90), "2": (91, 180)}
 
 
 def parse_table(path):
@@ -61,6 +68,9 @@ def parse_table(path):
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+
     result = {}
     out = []
     for key, fname in FILES.items():
@@ -69,9 +79,14 @@ def main():
                        "ingles": dict(sorted(ingles.items())),
                        "espanhol": dict(sorted(espanhol.items()))}
         nums = sorted(int(k) for k in common)
+        dia = key.split("-")[1]
+        ini, fim = ESPERADO[dia]
+        faltando = [str(n) for n in range(ini, fim + 1) if str(n) not in common]
         out.append(f"## {key}: comuns {len(common)} ({nums[0]}-{nums[-1]}) | inglês: {ingles} | espanhol: {espanhol}")
+        if faltando:
+            out.append(f"   ATENÇÃO {key}: sem letra para {len(faltando)} questões comuns: {faltando}")
 
-    with open(r"C:\Users\Micro\enem-treino\data\gabaritos.json", "w", encoding="utf-8") as f:
+    with open(os.path.join(PROJ, "data", "gabaritos.json"), "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=1)
 
     print("\n".join(out))
