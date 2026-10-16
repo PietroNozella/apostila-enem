@@ -1,0 +1,110 @@
+"use client";
+/* eslint-disable @next/next/no-img-element */
+
+import { useEffect, useState } from "react";
+import { getResposta, removerResposta, salvarResposta } from "@/lib/progresso";
+
+const LETTERS = ["A", "B", "C", "D", "E"];
+
+interface TreinoInterativoProps {
+  questionId: string;
+  heading: string;
+  exam: number;
+  question: number;
+  image: string;
+  answer: string;
+  paragraphs: string[];
+}
+
+export default function TreinoInterativo({
+  questionId,
+  heading,
+  exam,
+  question,
+  image,
+  answer,
+  paragraphs,
+}: TreinoInterativoProps) {
+  const [choice, setChoice] = useState<string | null>(null);
+
+  useEffect(() => {
+    const salva = getResposta(questionId);
+    if (salva) setChoice(salva.choice);
+  }, [questionId]);
+
+  const answered = choice !== null;
+
+  function responder(letra: string) {
+    if (answered) return;
+    salvarResposta(questionId, {
+      choice: letra,
+      correct: letra === answer,
+      answeredAt: new Date().toISOString(),
+    });
+    setChoice(letra);
+  }
+
+  function refazer() {
+    removerResposta(questionId);
+    setChoice(null);
+  }
+
+  return (
+    <section className="mt-12">
+      <h2 className="text-lg font-semibold">
+        {heading}{" "}
+        <span className="text-sm font-normal text-neutral-500">
+          ENEM {exam} · questão {question}
+        </span>
+      </h2>
+      <img
+        src={image}
+        alt={`Enunciado da questão ${question} do ENEM ${exam}`}
+        loading="lazy"
+        className="mt-4 w-full rounded-xl border border-neutral-200"
+      />
+
+      {!answered ? (
+        <div className="mt-6">
+          <p className="text-sm text-neutral-500">Marque a alternativa — gabarito e comentário saem na hora.</p>
+          <div className="mt-3 flex flex-wrap gap-3">
+            {LETTERS.map((letter) => (
+              <button
+                key={letter}
+                type="button"
+                onClick={() => responder(letter)}
+                className="min-w-14 rounded-lg border border-neutral-300 px-4 py-2.5 text-base font-medium transition-colors hover:border-neutral-700 hover:bg-neutral-50"
+              >
+                {letter}
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <>
+          {choice === answer ? (
+            <p className="mt-6 inline-block rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-sm font-medium text-emerald-800">
+              Você acertou — gabarito <strong>{answer}</strong>.
+            </p>
+          ) : (
+            <p className="mt-6 inline-block rounded-lg border border-red-200 bg-red-50 px-3 py-1.5 text-sm font-medium text-red-800">
+              Você marcou {choice} — gabarito <strong>{answer}</strong>.
+            </p>
+          )}
+          <div className="mt-4 space-y-4 leading-relaxed">
+            {paragraphs.map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
+            ))}
+          </div>
+          <button
+            type="button"
+            onClick={refazer}
+            className="mt-4 text-sm text-neutral-500 transition-colors hover:text-neutral-900"
+          >
+            Refazer questão
+          </button>
+        </>
+      )}
+    </section>
+  );
+}

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getUnit, paragraphs, subjects } from "@/lib/content";
+import TreinoInterativo from "@/components/treino-interativo";
 
 export function generateStaticParams() {
   return subjects.flatMap((subject) => subject.units.map((unit) => ({ id: unit.id })));
@@ -86,14 +87,15 @@ export default async function Page(props: PageProps<'/unidade/[id]'>) {
       />
 
       {unit.training.map((training) => (
-        <QuestionSection
+        <TreinoInterativo
           key={training.n}
+          questionId={`${unit.id}-treino${training.n}`}
           heading={`Treino ${training.n}`}
           exam={training.exam}
           question={training.question}
           image={`/${training.images[0]}`}
           answer={training.answer}
-          commentary={training.commentary}
+          paragraphs={paragraphs(training.commentary)}
         />
       ))}
     </main>
