@@ -1,0 +1,747 @@
+{
+ "recortesConferidos": true,
+ "classificacao": {
+  "enem2020-1-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2020-2-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2020-3-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2020-4-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2020-5-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2020-1-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2020-2-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2020-3-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2020-4-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2020-5-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2020-6": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-7": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-8": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2020-9": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-10": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-11": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-12": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-13": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2020-14": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2020-15": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2020-16": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-17": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2020-18": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-19": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-20": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-21": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2020-22": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-23": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-24": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-25": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2020-26": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2020-27": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-28": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2020-29": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-30": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-31": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-32": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-33": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2020-34": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-35": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2020-36": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2020-37": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2020-38": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-39": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-40": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-41": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-42": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2020-43": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-44": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2020-45": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2020-46": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-47": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-48": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2020-49": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-50": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-51": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-52": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-53": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-54": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-55": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2020-56": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-57": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-58": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-59": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-60": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2020-61": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-62": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-63": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-64": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-65": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-66": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2020-67": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-68": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-69": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2020-70": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-71": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-72": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2020-73": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2020-74": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2020-75": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-76": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2020-77": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2020-78": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-79": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-80": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-81": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-82": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-83": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-84": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-85": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-86": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-87": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2020-88": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-89": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2020-90": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2020-91": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-92": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-93": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-94": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-95": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-96": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-97": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-98": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-99": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-100": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-101": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-102": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-103": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-104": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-105": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-106": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-107": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-108": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-109": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-110": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-111": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-112": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-113": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-115": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-116": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-117": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-118": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-119": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-120": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-121": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-122": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-123": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-124": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-125": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-126": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-127": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2020-128": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-129": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-130": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-131": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-132": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2020-133": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-134": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-135": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2020-136": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-137": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-138": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-139": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-140": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-142": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-143": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-144": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-145": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-146": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-147": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-148": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-149": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-150": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-151": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-152": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-153": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-154": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-155": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-156": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-157": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-158": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-159": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-160": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-161": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-162": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-163": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-164": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-165": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-166": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-167": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-168": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-169": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-170": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-171": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-172": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-173": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-174": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-175": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-176": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-177": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-178": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-179": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2020-180": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  }
+ },
+ "metodoRevisao": "Classificação inicial por leitura das questões; conferência visual por amostragem, incluindo idiomas, continuação de colunas, textos compartilhados e finais de seção. Gabaritos e intervalos validados automaticamente.",
+ "amostraVisual": [
+  "enem2020-1-ing",
+  "enem2020-8",
+  "enem2020-45",
+  "enem2020-90",
+  "enem2020-110",
+  "enem2020-180"
+ ],
+ "loteSha256": "aba679a02c98edf49e74c36526c11d24ad8e1d15db643cb92a1fa24188866dc8"
+}

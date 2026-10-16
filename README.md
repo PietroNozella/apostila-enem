@@ -1,53 +1,64 @@
-# enem-treino
+# ENEM Treino
 
-Base de conteúdo para um app de treino ENEM, extraída da **Apostila ENEM 2026 – Estudo por Questões (V3)**.
+Aplicativo de estudo por questões, com apostila comentada e provas oficiais do INEP.
 
-## Estado atual
+## Acervo
 
-- `data/content.json` — 13 matérias, 52 unidades, 156 questões (1 resolvida + 2 treinos por unidade), com explicação em texto, comentários e gabaritos
-- `data/images/` — imagens dos enunciados (156 da apostila + questões das provas oficiais; questões divididas entre páginas/colunas são costuradas)
-- Todas as 156 respostas da apostila verificadas contra os gabaritos oficiais do INEP — 0 divergências (`data/gabarito_check.txt`)
-- `data/banco.json` — questões extraídas da prova oficial do ENEM 2025 (INEP), com gabarito oficial; questões anuladas ficam de fora (`data/prova_check.txt`)
-- App em `web/`: catálogo navegável, treino interativo com feedback imediato, progresso local com contadores, sincronização entre dispositivos por código de estudo (Supabase) e modo simulado (45 questões cronometradas, sorteadas da apostila + provas oficiais, com gabarito no fim) — detalhes em `web/README.md`
+- **1.286 questões únicas**: provas regulares de 2020 a 2025 e reaplicação/PPL de 2024. Os dois idiomas estão disponíveis no banco; o aluno escolhe um no simulado. Nove questões anuladas foram excluídas.
+- `data/content.json`: apostila original, com 13 matérias, 52 unidades e 156 questões comentadas. A aplicação também oferece Educação Física para as questões das provas oficiais.
+- `data/banco.json`: banco acumulado com área, matéria, assunto, ano, aplicação, dia, caderno, idioma, gabarito e links dos PDFs oficiais.
+- `data/lotes/`: extrações com coordenadas dos recortes; `data/revisoes/`: classificação inicial, registro da amostragem visual e assinatura do lote revisado.
+- As questões da apostila e do banco são relacionadas pela identidade da prova. O catálogo preserva comentários e identificadores antigos de progresso, sem duplicar as questões no simulado.
+- Questões novas podem não ter resolução comentada; a interface informa essa condição. A classificação é inicial e pode ser refinada nos arquivos de revisão.
 
-## Pipeline (reproduzir)
+Os enunciados continuam como imagens. Os recortes oficiais novos usam WebP sem perda, incluindo gráficos, fórmulas e alternativas. Textos compartilhados e continuações de coluna/página são incorporados à questão.
+
+## Importar uma prova
+
+Na raiz do projeto, com Python e `curl` disponíveis:
+
+```bash
+python -m pip install -r tools/requirements.txt
+python tools/download_provas.py 2024
+python tools/extract_prova.py 2024
+python tools/preparar_revisao.py data/lotes/2024-regular.json
+```
+
+A preparação da revisão reinicia `recortesConferidos` como `false`. Confira as imagens em `data/images/`, preencha `subjectId` e `assunto` de cada questão em `data/revisoes/2024-regular.json` e registre a conferência visual. Só então marque `recortesConferidos` como `true`.
+
+```bash
+python tools/publicar_lote.py data/lotes/2024-regular.json data/revisoes/2024-regular.json
+python tools/validar_banco.py
+```
+
+Para reaplicação/PPL, use `--aplicacao ppl` no download e na extração; os arquivos do lote e da revisão terão o sufixo `-ppl.json`.
+
+A extração não altera o banco publicado. A publicação bloqueia lotes incompletos, erros de extração, classificação ausente, gabarito divergente e imagens alteradas após a extração. A revisão deve corresponder à assinatura atual do lote. A importação acumula anos, preserva comentários existentes e atualiza as cópias em `web/lib/` e `web/public/images/`.
+
+A ausência de letra no parser não confirma uma anulação: somente a marca explícita no gabarito oficial permite excluir a questão como anulada.
+
+## Apostila e aplicação
+
+O pipeline original da apostila permanece disponível:
 
 ```bash
 python tools/build_content.py "caminho/Apostila de estudo ENEM.pdf"
 python tools/parse_gabaritos.py
 python tools/apply_gabaritos.py
 python tools/validate_content.py
-python tools/extract_prova.py 2025
 ```
 
-| Script | Função |
-|---|---|
-| `build_content.py` | Extrai unidades, textos (parágrafos) e imagens do PDF da apostila |
-| `parse_gabaritos.py` | Lê os gabaritos oficiais em `data/gabaritos_inep/` — atenção: questões 1-5 do 1º dia têm 2 colunas (INGLÊS/ESPANHOL) |
-| `apply_gabaritos.py` | Cruza respostas da apostila com o INEP; preenche letras das resolvidas; gera `data/gabarito_check.txt`. Idempotente: re-executar não altera `content.json` |
-| `validate_content.py` | Relatório de qualidade (imagens, tamanhos, respostas) em `data/validation.txt` |
-| `extract_prova.py` | Extrai as questões das provas oficiais (`data/provas_inep/<ano>/`) para o banco do simulado: recorta por marcador "Questão NN", costura páginas/colunas, prefixa textos de grupo e gera `data/banco.json` + `data/prova_check.txt` |
+Ao regenerar a apostila, atualize também a cópia `web/lib/content.json` e suas imagens. Os detalhes para rodar o aplicativo e testar os fluxos estão em [web/README.md](web/README.md).
 
-## Fontes oficiais (INEP)
+```bash
+python -m unittest discover -s tools -p "test_*.py"
+python tools/validar_banco.py
+```
 
-Prefixo `https://download.inep.gov.br/enem/provas_e_gabaritos/`:
+## Fontes
 
-- `2023_GB_impresso_D1_CD1.pdf`, `2023_GB_impresso_D2_CD5.pdf`
-- `2024_GB_impresso_D1_CD1.pdf`, `2024_GB_impresso_D2_CD5.pdf`
-- `2025_PV_impresso_D1_CD1.pdf`, `2025_PV_impresso_D2_CD5.pdf` (provas, usadas pelo `extract_prova.py`)
-- `2025_GB_impresso_D1_CD1.pdf`, `2025_GB_impresso_D2_CD5.pdf`
+Os PDFs são baixados de `https://download.inep.gov.br/enem/provas_e_gabaritos/`. As URLs de prova e gabarito ficam em cada questão; os downloads novos também registram `fontes-regular.json` ou `fontes-ppl.json` junto aos PDFs. O relatório atual fica em `data/prova_check.txt`.
 
-Observações do ENEM 2025: o 1º dia imprime as duas versões das questões 1-5 (opção inglês/espanhol) — cada versão vira uma questão do banco com sufixo `-ing`/`-esp`; as questões 115, 121 e 178 do 2º dia foram anuladas pelo INEP e ficam de fora.
+A convenção adotada é caderno **1 (azul)** no primeiro dia e **5 (amarelo)** no segundo dia. Os identificadores distinguem aplicação regular, PPL e idioma; não se importam outras cores como questões novas.
 
-## Aplicação (web/)
-
-App Next.js 16 + Tailwind 4 consumindo os dados acima.
-
-- `web/lib/content.json` (cópia de `data/content.json`) + imagens em `web/public/images/`
-- Rodar: `npm install` e `npm run dev` dentro de `web/`
-- Estado: catálogo (home, `/materia/[slug]`, `/unidade/[id]`), treino interativo com feedback imediato, progresso local com contadores, sincronização por código de estudo via Supabase (rota server-side com `service_role`; ver `web/README.md`) e simulado em `/simulado` (45 questões, 2h30, gabarito no fim)
-
-## Observações
-
-- Convenção da apostila (e adotada no JSON): caderno **1 (azul)** no 1º dia, **5 (amarelo)** no 2º dia; questões 1-5 de Espanhol usam a coluna ESPANHOL do caderno azul.
 - Enunciados das questões são do INEP sob licença **CC BY-ND 3.0** (atribuição, sem derivações). Verificar implicações antes de monetizar.

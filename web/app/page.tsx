@@ -1,27 +1,26 @@
 import Link from "next/link";
 import { meta, subjects } from "@/lib/content";
-import { banco } from "@/lib/banco";
 import ProgressoResumo from "@/components/progresso-resumo";
 import ProgressoSincronizacao from "@/components/progresso-sincronizacao";
+import { questoes, questoesDaMateria } from "@/lib/questoes";
 
 export default function Home() {
-  const treinosTotal = subjects.reduce((soma, subject) => soma + subject.units.length * 2, 0);
   return (
     <main className="mx-auto w-full max-w-5xl px-6 py-14">
       <h1 className="text-3xl font-bold tracking-tight">ENEM Treino</h1>
       <p className="mt-2 text-neutral-500">
         {meta.units} unidades de estudo em {meta.subjects} matérias ·{" "}
         {meta.questions} questões do ENEM 2023 e 2024 com resolução comentada ·{" "}
-        {banco.length} questões da prova oficial do ENEM 2025 no simulado
+        {questoes.length} questões únicas para treinar por matéria e no simulado
       </p>
-      <ProgressoResumo prefix="" total={treinosTotal} className="mt-1 block" />
+      <ProgressoResumo prefix="" total={questoes.length} grupos={questoes.map(q => q.aliases)} className="mt-1 block" />
 
       <Link
         href="/simulado"
         className="mt-8 flex items-center justify-between gap-4 rounded-xl border border-neutral-200 p-5 transition-colors hover:border-neutral-400 hover:bg-neutral-50"
       >
         <span>
-          <span className="font-semibold">Simulado ENEM</span>
+          <span className="font-semibold">Simulado reduzido ENEM</span>
           <span className="mt-1 block text-sm text-neutral-500">
             45 questões sorteadas · cronômetro de 2h30 · gabarito no fim
           </span>
@@ -41,11 +40,12 @@ export default function Home() {
               <span className="text-lg font-semibold">{subject.name}</span>
               <span className="mt-1 text-sm text-neutral-500">{subject.area}</span>
               <span className="mt-4 text-sm text-neutral-600">
-                {subject.units.length} unidades · {subject.units.length * 3} questões
+                {subject.units.length} unidades · {questoesDaMateria(subject.id).length} questões
               </span>
               <ProgressoResumo
                 prefix={`${subject.id}-`}
-                total={subject.units.length * 2}
+                total={questoesDaMateria(subject.id).length}
+                grupos={questoesDaMateria(subject.id).map(q => q.aliases)}
                 className="mt-2"
               />
             </Link>

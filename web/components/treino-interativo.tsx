@@ -1,8 +1,10 @@
 "use client";
-/* eslint-disable @next/next/no-img-element */
 
-import { useEffect, useState } from "react";
-import { getResposta, removerResposta, salvarResposta } from "@/lib/progresso";
+import { useState } from "react";
+import { salvarResposta } from "@/lib/progresso";
+import { useProgresso } from "@/lib/use-progresso";
+import ImagemQuestao from "./imagem-questao";
+import { respostaMaisRecente } from "@/lib/progresso-dados";
 
 const LETTERS = ["A", "B", "C", "D", "E"];
 
@@ -15,6 +17,11 @@ interface TreinoInterativoProps {
   answer: string;
   paragraphs: string[];
   id?: string;
+  revisao?: boolean;
+  aliases?: string[];
+  sourceUrl?: string;
+  onAnswered?: () => void;
+  aplicacao?: "regular" | "ppl";
 }
 
 export default function TreinoInterativo({
@@ -26,29 +33,32 @@ export default function TreinoInterativo({
   answer,
   paragraphs,
   id,
+  revisao = false,
+  sourceUrl,
+  aliases = [questionId],
+  onAnswered,
+  aplicacao = "regular",
 }: TreinoInterativoProps) {
-  const [choice, setChoice] = useState<string | null>(null);
-
-  useEffect(() => {
-    const salva = getResposta(questionId);
-    if (salva) setChoice(salva.choice);
-  }, [questionId]);
+  const progresso = useProgresso();
+  const salva = respostaMaisRecente(progresso, aliases);
+  const [refazendo, setRefazendo] = useState(revisao);
+  const choice = refazendo ? null : salva?.choice ?? null;
 
   const answered = choice !== null;
 
   function responder(letra: string) {
     if (answered) return;
+    onAnswered?.();
     salvarResposta(questionId, {
       choice: letra,
       correct: letra === answer,
       answeredAt: new Date().toISOString(),
     });
-    setChoice(letra);
+    setRefazendo(false);
   }
 
   function refazer() {
-    removerResposta(questionId);
-    setChoice(null);
+    setRefazendo(true);
   }
 
   function classeDoBotao(letra: string): string {
@@ -65,15 +75,12 @@ export default function TreinoInterativo({
       <h2 className="text-lg font-semibold">
         {heading}{" "}
         <span className="text-sm font-normal text-neutral-500">
-          ENEM {exam} · questão {question}
+          ENEM {exam}{aplicacao === "ppl" ? " · Reaplicação/PPL" : ""} · questão {question}
         </span>
       </h2>
-      <img
-        src={image}
-        alt={`Enunciado da questão ${question} do ENEM ${exam}`}
-        loading="lazy"
-        className="mt-4 w-full rounded-xl border border-neutral-200"
-      />
+      <ImagemQuestao src={image} alt={`Enunciado da questão ${question} do ENEM ${exam}`} />
+      {sourceUrl && <a href={sourceUrl} target="_blank" rel="noreferrer" className="mt-2 inline-block text-sm underline">Prova oficial (PDF)</a>}
+      {refazendo && salva && <p className="mt-3 text-sm text-neutral-500">Tentativa anterior preservada. Ela será atualizada quando você responder novamente.</p>}
 
       <div className="mt-6 flex flex-wrap gap-3">
         {LETTERS.map((letter) => (
@@ -82,6 +89,7 @@ export default function TreinoInterativo({
             type="button"
             onClick={() => responder(letter)}
             disabled={answered}
+            aria-pressed={letter === choice}
             className={`min-w-14 rounded-lg border px-4 py-2.5 text-base font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 ${classeDoBotao(letter)}`}
           >
             {letter}
@@ -90,7 +98,7 @@ export default function TreinoInterativo({
       </div>
 
       {answered && (
-        <div className="revelar">
+        <div className="revelar" aria-live="polite">
           {choice === answer ? (
             <p className="mt-6 inline-block rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-sm font-medium text-emerald-800">
               Você acertou — gabarito <strong>{answer}</strong>.
@@ -101,6 +109,7 @@ export default function TreinoInterativo({
             </p>
           )}
           <div className="mt-4 space-y-4 leading-relaxed">
+            {paragraphs.length === 0 && <p className="text-sm text-neutral-500">Sem resolução comentada. Gabarito oficial do INEP.</p>}
             {paragraphs.map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
             ))}

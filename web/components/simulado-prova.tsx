@@ -1,8 +1,9 @@
 "use client";
-/* eslint-disable @next/next/no-img-element */
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
+import ImagemQuestao from "./imagem-questao";
+import { getResposta, salvarResposta } from "@/lib/progresso";
 import {
   type QuestaoSimulado,
   type SimuladoSalvo,
@@ -19,74 +20,70 @@ import {
 
 const LETRAS = ["A", "B", "C", "D", "E"];
 
-type Fase = "intro" | "prova" | "resultado";
+const observarHidratacao = () => () => {};
 
 export default function SimuladoProva({ catalogo }: { catalogo: QuestaoSimulado[] }) {
-  const [fase, setFase] = useState<Fase>("intro");
-  const [estado, setEstado] = useState<SimuladoSalvo | null>(null);
-  const [restante, setRestante] = useState(0);
-  const [posicao, setPosicao] = useState(0);
+  const pronto = useSyncExternalStore(observarHidratacao, () => true, () => false);
+  return pronto ? <Prova catalogo={catalogo} /> : <p className="mt-6" role="status">Preparando simulado…</p>;
+}
 
-  const porId = useMemo(() => new Map(catalogo.map((questao) => [questao.id, questao])), [catalogo]);
-
-  // Recupera prova em andamento ou resultado salvo; prova expirada fecha sozinha;
-  // ids que não batem mais com o catálogo são descartados.
-  useEffect(() => {
+function Prova({ catalogo }: { catalogo: QuestaoSimulado[] }) {
+  const porId = useMemo(() => new Map(catalogo.flatMap(q => (q.aliases ?? [q.id]).map(id => [id, q] as const))), [catalogo]);
+  const [estado, setEstado] = useState<SimuladoSalvo | null>(() => {
     const salvo = lerSimulado();
-    if (!salvo) return;
-    if (!salvo.questoes.every((id) => porId.has(id))) {
-      limparSimulado();
-      return;
-    }
-    if (salvo.finalizadoEm) {
-      setEstado(salvo);
-      setFase("resultado");
-      return;
-    }
-    if (restanteSegundos(salvo) > 0) {
-      setEstado(salvo);
-      setRestante(restanteSegundos(salvo));
-      setFase("prova");
-      return;
-    }
-    const fechado = { ...salvo, finalizadoEm: new Date().toISOString() };
-    salvarSimulado(fechado);
-    setEstado(fechado);
-    setFase("resultado");
-  }, [porId]);
+    if (!salvo || !salvo.questoes.every(id => porId.has(id))) return null;
+    return !salvo.finalizadoEm && restanteSegundos(salvo) === 0 ? { ...salvo, finalizadoEm: salvo.expiraEm } : salvo;
+  });
+  const [restante, setRestante] = useState(() => estado ? restanteSegundos(estado) : 0);
+  const [posicao, setPosicao] = useState(0);
+  const [idioma, setIdioma] = useState<"ing" | "esp">(estado?.idioma ?? "ing");
+  const fase = !estado ? "intro" : estado.finalizadoEm ? "resultado" : "prova";
 
-  // Cronômetro: lê o salvo a cada tique (o localStorage é a fonte da verdade).
   useEffect(() => {
-    if (fase !== "prova") return;
-    const t = setInterval(() => {
-      const salvo = lerSimulado();
-      if (!salvo || salvo.finalizadoEm) return;
-      const s = restanteSegundos(salvo);
-      setRestante(s);
-      if (s <= 0) finalizar({ ...salvo, finalizadoEm: new Date().toISOString() });
+    if (!estado) return;
+    salvarSimulado(estado);
+    if (!estado.finalizadoEm) return;
+    for (const id of estado.questoes) {
+      const q = porId.get(id);
+      const choice = estado.respostas[id];
+      const progressId = q?.progressId ?? id;
+      if (q && choice && (!getResposta(progressId) || Date.parse(getResposta(progressId)!.answeredAt) < Date.parse(estado.finalizadoEm))) {
+        salvarResposta(progressId, { choice, correct: choice === q.answer, answeredAt: estado.finalizadoEm });
+      }
+    }
+  }, [estado, porId]);
+
+  useEffect(() => {
+    if (!estado || estado.finalizadoEm) return;
+    const timer = setInterval(() => {
+      const segundos = restanteSegundos(estado);
+      setRestante(segundos);
+      if (segundos === 0) setEstado(atual => atual && !atual.finalizadoEm ? { ...atual, finalizadoEm: atual.expiraEm } : atual);
     }, 1000);
-    return () => clearInterval(t);
-  }, [fase]);
+    return () => clearInterval(timer);
+  }, [estado]);
 
   function comecar() {
-    const novo = iniciarSimulado(sortearQuestoes(catalogo));
+    const novo = iniciarSimulado(sortearQuestoes(catalogo, QUESTOES_SIMULADO, idioma), idioma);
     salvarSimulado(novo);
     setEstado(novo);
     setRestante(restanteSegundos(novo));
     setPosicao(0);
-    setFase("prova");
   }
 
   function finalizar(fechado: SimuladoSalvo) {
     salvarSimulado(fechado);
     setEstado(fechado);
     setRestante(0);
-    setFase("resultado");
     window.scrollTo(0, 0);
   }
 
   function responder(letra: string) {
     if (!estado || estado.finalizadoEm) return;
+    if (restanteSegundos(estado) === 0) {
+      finalizar({ ...estado, finalizadoEm: estado.expiraEm });
+      return;
+    }
     const id = estado.questoes[posicao];
     const atualizado = { ...estado, respostas: { ...estado.respostas, [id]: letra } };
     salvarSimulado(atualizado);
@@ -97,7 +94,6 @@ export default function SimuladoProva({ catalogo }: { catalogo: QuestaoSimulado[
     if (!window.confirm("Abandonar o simulado? As respostas desta prova serão perdidas.")) return;
     limparSimulado();
     setEstado(null);
-    setFase("intro");
   }
 
   function finalizarAgora() {
@@ -113,13 +109,16 @@ export default function SimuladoProva({ catalogo }: { catalogo: QuestaoSimulado[
         <h2 className="text-lg font-semibold">Como funciona</h2>
         <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-neutral-600">
           <li>
-            {QUESTOES_SIMULADO} questões sorteadas entre as {catalogo.length} do banco, passando por todas
-            as matérias
+            {QUESTOES_SIMULADO} questões sorteadas entre as {catalogo.length} do banco, distribuídas entre as quatro áreas
           </li>
-          <li>Cronômetro de {DURACAO_MINUTOS / 60}h — ao zerar, a prova fecha sozinha</li>
+          <li>Cronômetro de {Math.floor(DURACAO_MINUTOS / 60)}h{DURACAO_MINUTOS % 60} — ao zerar, a prova fecha sozinha</li>
           <li>A alternativa pode ser trocada até finalizar</li>
           <li>No fim: acertos totais e por matéria, gabarito de cada questão e link para o comentário</li>
         </ul>
+        <label className="mt-5 block text-sm">Língua estrangeira
+          <select aria-label="Língua estrangeira" value={idioma} onChange={e => setIdioma(e.target.value as "ing" | "esp")} className="ml-3 rounded-lg border p-2"><option value="ing">Inglês</option><option value="esp">Espanhol</option></select>
+        </label>
+        <p className="mt-3 text-sm text-neutral-500">Formato reduzido de treino: 45 questões em 150 minutos.</p>
         <button
           type="button"
           onClick={comecar}
@@ -196,14 +195,9 @@ export default function SimuladoProva({ catalogo }: { catalogo: QuestaoSimulado[
 
         <div className="mt-8">
           <p className="text-sm text-neutral-500">
-            {questao.materia} · ENEM {questao.exam} · questão {questao.question}
+            {questao.materia} · ENEM {questao.exam}{questao.aplicacao === "ppl" ? " · Reaplicação/PPL" : ""} · questão {questao.question}
           </p>
-          <img
-            src={questao.image}
-            alt={`Questão ${questao.question} do ENEM ${questao.exam}`}
-            loading="lazy"
-            className="mt-3 w-full rounded-xl border border-neutral-200"
-          />
+          <ImagemQuestao src={questao.image} alt={`Questão ${questao.question} do ENEM ${questao.exam}`} />
           <div className="mt-6 flex flex-wrap gap-3">
             {LETRAS.map((letra) => {
               const escolhida = estado.respostas[questao.id] === letra;
@@ -288,7 +282,7 @@ export default function SimuladoProva({ catalogo }: { catalogo: QuestaoSimulado[
                 <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
                   <span className="font-medium">{i + 1}.</span>
                   <span className="text-neutral-500">
-                    {questao.materia} · ENEM {questao.exam} q{questao.question}
+                    {questao.materia} · ENEM {questao.exam}{questao.aplicacao === "ppl" ? " · Reaplicação/PPL" : ""} q{questao.question}
                   </span>
                   {resposta ? (
                     <span
@@ -317,12 +311,7 @@ export default function SimuladoProva({ catalogo }: { catalogo: QuestaoSimulado[
                   <summary className="cursor-pointer text-sm text-neutral-500 transition-colors hover:text-neutral-900">
                     Ver enunciado
                   </summary>
-                  <img
-                    src={questao.image}
-                    alt={`Questão ${questao.question} do ENEM ${questao.exam}`}
-                    loading="lazy"
-                    className="mt-2 w-full rounded-lg border border-neutral-200"
-                  />
+                  <ImagemQuestao src={questao.image} alt={`Questão ${questao.question} do ENEM ${questao.exam}`} />
                 </details>
               </li>
             );

@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { useCodigo } from "@/lib/use-progresso";
 import {
   aplicarProgresso,
   baixarProgresso,
-  getCodigo,
   gerarCodigo,
   lerProgresso,
   mesclarProgresso,
@@ -16,24 +16,15 @@ const BOTAO =
   "rounded-lg border border-neutral-300 px-4 py-2 text-sm font-medium transition-colors hover:border-neutral-700 hover:bg-neutral-50";
 
 export default function ProgressoSincronizacao() {
-  const [codigo, setCodigoEstado] = useState<string | null>(null);
-  const [pronto, setPronto] = useState(false);
+  const codigo = useCodigo();
   const [entrada, setEntrada] = useState("");
   const [conectando, setConectando] = useState(false);
   const [erro, setErro] = useState<string | null>(null);
   const [aviso, setAviso] = useState<string | null>(null);
 
-  useEffect(() => {
-    setCodigoEstado(getCodigo());
-    setPronto(true);
-  }, []);
-
-  if (!pronto) return null;
-
   function gerar() {
     const criado = gerarCodigo();
     salvarCodigo(criado);
-    setCodigoEstado(criado);
     setErro(null);
     setAviso(null);
     sincronizar();
@@ -66,7 +57,6 @@ export default function ProgressoSincronizacao() {
     }
     aplicarProgresso(mesclarProgresso(local, baixa.progresso));
     salvarCodigo(digitado);
-    setCodigoEstado(digitado);
     setEntrada("");
     setConectando(false);
     setAviso(
@@ -110,14 +100,15 @@ export default function ProgressoSincronizacao() {
           </button>
         )}
       </div>
-      <form className="mt-4 flex flex-wrap gap-2">
+      <form className="mt-4 flex flex-wrap gap-2" onSubmit={(e) => { e.preventDefault(); void conectar(); }}>
         <input
+          aria-label="Código de estudo"
           value={entrada}
           onChange={(e) => setEntrada(e.target.value)}
           placeholder="Conectar código existente (ex.: LUNA-2438)"
           className="min-w-56 flex-1 rounded-lg border border-neutral-300 px-3 py-2 text-sm"
         />
-        <button type="submit" onClick={(e) => { e.preventDefault(); void conectar(); }} disabled={conectando} className={BOTAO}>
+        <button type="submit" disabled={conectando} className={BOTAO}>
           {conectando ? "Conectando..." : "Usar código"}
         </button>
       </form>

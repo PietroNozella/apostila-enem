@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getSubject, subjects } from "@/lib/content";
 import ProgressoResumo from "@/components/progresso-resumo";
+import BancoMateria from "@/components/banco-materia";
+import { questoesDaMateria } from "@/lib/questoes";
 
 export function generateStaticParams() {
   return subjects.map((subject) => ({ slug: subject.id }));
@@ -21,6 +23,7 @@ export default async function Page(props: PageProps<'/materia/[slug]'>) {
   const { slug } = await props.params;
   const subject = getSubject(slug);
   if (!subject) notFound();
+  const questoes = questoesDaMateria(subject.id);
 
   return (
     <main className="mx-auto w-full max-w-3xl px-6 py-14">
@@ -33,7 +36,7 @@ export default async function Page(props: PageProps<'/materia/[slug]'>) {
       <h1 className="mt-3 text-3xl font-bold tracking-tight">{subject.name}</h1>
       <p className="mt-1 text-sm text-neutral-500">
         {subject.area} · {subject.units.length} unidades ·{" "}
-        {subject.units.length * 3} questões
+        {questoes.length} questões
       </p>
 
       <ul className="mt-8 divide-y divide-neutral-200 border-y border-neutral-200">
@@ -57,6 +60,7 @@ export default async function Page(props: PageProps<'/materia/[slug]'>) {
           </li>
         ))}
       </ul>
+      <BancoMateria questoes={questoes} />
     </main>
   );
 }

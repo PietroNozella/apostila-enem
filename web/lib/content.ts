@@ -37,8 +37,10 @@ export interface Meta {
 /** content.json gerado por tools/build_content.py + tools/apply_gabaritos.py */
 export const content = contentJson as unknown as { meta: Meta; subjects: Subject[] };
 
-export const subjects: Subject[] = content.subjects;
-export const meta: Meta = content.meta;
+export const subjects: Subject[] = [...content.subjects, {
+  id: "educacao-fisica", name: "Educação Física", area: "Linguagens", units: [],
+}];
+export const meta: Meta = { ...content.meta, subjects: subjects.length };
 
 export function getSubject(id: string): Subject | undefined {
   return subjects.find((s) => s.id === id);

@@ -1,0 +1,751 @@
+{
+ "recortesConferidos": true,
+ "classificacao": {
+  "enem2021-1-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2021-2-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2021-3-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2021-4-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2021-5-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2021-1-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2021-2-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2021-3-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2021-4-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2021-5-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2021-6": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-7": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-8": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-9": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2021-10": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-11": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-12": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-13": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-14": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2021-15": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2021-16": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-17": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2021-18": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2021-19": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2021-20": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2021-21": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-22": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-23": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2021-24": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2021-25": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-26": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-27": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2021-28": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-29": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-30": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-31": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2021-32": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-33": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-34": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-35": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2021-36": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2021-37": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-38": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2021-39": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-40": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2021-41": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2021-42": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2021-43": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-44": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-45": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2021-46": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-47": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-48": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-49": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-50": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-51": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-52": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-53": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-54": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-55": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-56": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-57": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2021-58": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-59": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-60": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-61": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-62": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-63": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-64": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2021-65": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-66": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-67": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-68": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-69": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-70": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-71": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-72": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-73": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-74": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-75": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-76": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-77": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-78": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-79": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-80": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-81": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-82": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2021-83": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-84": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-85": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-86": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2021-87": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2021-88": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2021-89": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2021-90": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2021-91": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-92": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-93": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-94": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-95": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-96": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-97": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-98": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-99": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-100": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-101": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-102": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-103": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-104": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-105": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-106": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-107": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-108": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-109": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-110": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-111": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-112": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-113": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-114": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-115": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-116": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-117": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-118": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-119": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-120": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-121": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-123": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-124": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-125": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-126": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-127": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-128": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-129": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-130": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-131": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-132": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-133": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2021-134": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2021-135": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2021-136": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-137": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-138": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-139": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-140": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-141": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-142": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-143": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-144": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-145": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-146": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-147": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-148": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-149": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-150": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-151": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-152": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-153": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-154": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-155": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-156": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-157": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-158": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-159": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-160": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-161": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-162": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-163": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-164": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-165": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-166": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-167": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-168": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-169": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-170": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-171": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-172": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-173": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-174": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-175": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-176": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-177": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-179": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-180": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2021-122": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  }
+ },
+ "metodoRevisao": "Classificação inicial por leitura das questões; conferência visual por amostragem, incluindo idiomas, continuação de colunas, textos compartilhados e finais de seção. Gabaritos e intervalos validados automaticamente.",
+ "amostraVisual": [
+  "enem2021-1-ing",
+  "enem2021-8",
+  "enem2021-45",
+  "enem2021-90",
+  "enem2021-110",
+  "enem2021-180"
+ ],
+ "loteSha256": "ae7550b97f23343cf4c6590d2d78d605cf18fedbcba3c698af4828e063f2c343"
+}

@@ -1,0 +1,751 @@
+{
+ "recortesConferidos": true,
+ "classificacao": {
+  "enem2024-1-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-2-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-3-ing": {
+   "subjectId": "ingles",
+   "assunto": "Ler o texto e reconhecer sua finalidade"
+  },
+  "enem2024-4-ing": {
+   "subjectId": "ingles",
+   "assunto": "Perspectiva, humor e diversidade"
+  },
+  "enem2024-5-ing": {
+   "subjectId": "ingles",
+   "assunto": "Ler o texto e reconhecer sua finalidade"
+  },
+  "enem2024-1-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-2-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Leitura, contexto e relações de sentido"
+  },
+  "enem2024-3-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-4-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Leitura, contexto e relações de sentido"
+  },
+  "enem2024-5-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Vozes, identidade e crítica social"
+  },
+  "enem2024-6": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-7": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2024-8": {
+   "subjectId": "arte",
+   "assunto": "Som, corpo e imagem técnica"
+  },
+  "enem2024-9": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2024-10": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-11": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-12": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-13": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-14": {
+   "subjectId": "portugues",
+   "assunto": "Língua em uso e leitura crítica"
+  },
+  "enem2024-15": {
+   "subjectId": "portugues",
+   "assunto": "Texto, pistas e conclusões"
+  },
+  "enem2024-16": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2024-17": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-18": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2024-19": {
+   "subjectId": "literatura",
+   "assunto": "Vozes, narrativa e construção do sentido"
+  },
+  "enem2024-20": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-21": {
+   "subjectId": "arte",
+   "assunto": "Matrizes culturais e circulação artística"
+  },
+  "enem2024-22": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-23": {
+   "subjectId": "portugues",
+   "assunto": "Texto, pistas e conclusões"
+  },
+  "enem2024-24": {
+   "subjectId": "literatura",
+   "assunto": "Tradições literárias e crítica social"
+  },
+  "enem2024-25": {
+   "subjectId": "arte",
+   "assunto": "Olhar a obra e interpretar sua forma"
+  },
+  "enem2024-26": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2024-27": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-28": {
+   "subjectId": "portugues",
+   "assunto": "Palavras, imagens e diálogo entre textos"
+  },
+  "enem2024-29": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2024-30": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2024-31": {
+   "subjectId": "literatura",
+   "assunto": "Vozes, narrativa e construção do sentido"
+  },
+  "enem2024-32": {
+   "subjectId": "literatura",
+   "assunto": "Poesia, modernismos e contemporaneidade"
+  },
+  "enem2024-33": {
+   "subjectId": "portugues",
+   "assunto": "Palavras, imagens e diálogo entre textos"
+  },
+  "enem2024-34": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-35": {
+   "subjectId": "literatura",
+   "assunto": "Tradições literárias e crítica social"
+  },
+  "enem2024-36": {
+   "subjectId": "arte",
+   "assunto": "Olhar a obra e interpretar sua forma"
+  },
+  "enem2024-37": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-38": {
+   "subjectId": "literatura",
+   "assunto": "Poesia, modernismos e contemporaneidade"
+  },
+  "enem2024-39": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-40": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2024-41": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-42": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2024-43": {
+   "subjectId": "arte",
+   "assunto": "Som, corpo e imagem técnica"
+  },
+  "enem2024-44": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2024-45": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-46": {
+   "subjectId": "geografia",
+   "assunto": "Mapas, relevo, clima e água"
+  },
+  "enem2024-47": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-48": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-49": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-50": {
+   "subjectId": "historia",
+   "assunto": "Expansão, colonização e revoluções"
+  },
+  "enem2024-51": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-52": {
+   "subjectId": "sociologia",
+   "assunto": "Movimentos sociais, mídia e globalização"
+  },
+  "enem2024-53": {
+   "subjectId": "geografia",
+   "assunto": "Mapas, relevo, clima e água"
+  },
+  "enem2024-54": {
+   "subjectId": "sociologia",
+   "assunto": "Poder, cidadania e desigualdades"
+  },
+  "enem2024-55": {
+   "subjectId": "filosofia",
+   "assunto": "Crítica, corpo e pensamento contemporâneo"
+  },
+  "enem2024-56": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-57": {
+   "subjectId": "sociologia",
+   "assunto": "Poder, cidadania e desigualdades"
+  },
+  "enem2024-58": {
+   "subjectId": "filosofia",
+   "assunto": "Argumentação e tradições filosóficas"
+  },
+  "enem2024-59": {
+   "subjectId": "historia",
+   "assunto": "Fontes, sociedades antigas e mundo medieval"
+  },
+  "enem2024-60": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-61": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2024-62": {
+   "subjectId": "filosofia",
+   "assunto": "Conhecimento, política e ética"
+  },
+  "enem2024-63": {
+   "subjectId": "sociologia",
+   "assunto": "Movimentos sociais, mídia e globalização"
+  },
+  "enem2024-64": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-65": {
+   "subjectId": "sociologia",
+   "assunto": "Movimentos sociais, mídia e globalização"
+  },
+  "enem2024-66": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-67": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-68": {
+   "subjectId": "geografia",
+   "assunto": "Brasil, paisagens e ambiente"
+  },
+  "enem2024-69": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2024-70": {
+   "subjectId": "geografia",
+   "assunto": "Redes, produção e geopolítica"
+  },
+  "enem2024-71": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-72": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-73": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-74": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-75": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-76": {
+   "subjectId": "filosofia",
+   "assunto": "Crítica, corpo e pensamento contemporâneo"
+  },
+  "enem2024-77": {
+   "subjectId": "historia",
+   "assunto": "Guerras, Vargas e Guerra Fria"
+  },
+  "enem2024-78": {
+   "subjectId": "filosofia",
+   "assunto": "Conhecimento, política e ética"
+  },
+  "enem2024-79": {
+   "subjectId": "geografia",
+   "assunto": "Biomas, população, campo e cidade"
+  },
+  "enem2024-80": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-81": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-82": {
+   "subjectId": "filosofia",
+   "assunto": "Conhecimento, política e ética"
+  },
+  "enem2024-83": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-84": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-85": {
+   "subjectId": "historia",
+   "assunto": "Ditaduras, resistências e direitos"
+  },
+  "enem2024-86": {
+   "subjectId": "geografia",
+   "assunto": "Brasil, paisagens e ambiente"
+  },
+  "enem2024-87": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2024-88": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-89": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-90": {
+   "subjectId": "sociologia",
+   "assunto": "Pesquisa, cultura e relações de trabalho"
+  },
+  "enem2024-91": {
+   "subjectId": "biologia",
+   "assunto": "Método, moléculas e funcionamento celular"
+  },
+  "enem2024-92": {
+   "subjectId": "quimica",
+   "assunto": "Matéria, átomos e interações"
+  },
+  "enem2024-93": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-94": {
+   "subjectId": "quimica",
+   "assunto": "Energia, velocidade e equilíbrio"
+  },
+  "enem2024-95": {
+   "subjectId": "fisica",
+   "assunto": "Temperatura, calor e gases"
+  },
+  "enem2024-96": {
+   "subjectId": "quimica",
+   "assunto": "Estruturas, funções e isomeria orgânica"
+  },
+  "enem2024-97": {
+   "subjectId": "biologia",
+   "assunto": "Método, moléculas e funcionamento celular"
+  },
+  "enem2024-98": {
+   "subjectId": "quimica",
+   "assunto": "Matéria, átomos e interações"
+  },
+  "enem2024-99": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-100": {
+   "subjectId": "fisica",
+   "assunto": "Ondas, óptica e campo elétrico"
+  },
+  "enem2024-101": {
+   "subjectId": "quimica",
+   "assunto": "Eletroquímica e transformações nucleares"
+  },
+  "enem2024-103": {
+   "subjectId": "fisica",
+   "assunto": "Temperatura, calor e gases"
+  },
+  "enem2024-104": {
+   "subjectId": "fisica",
+   "assunto": "Medidas, movimentos e forças"
+  },
+  "enem2024-105": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-106": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-107": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-108": {
+   "subjectId": "quimica",
+   "assunto": "Quantidades, misturas e soluções"
+  },
+  "enem2024-109": {
+   "subjectId": "fisica",
+   "assunto": "Circuitos, indução e tecnologia"
+  },
+  "enem2024-110": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-111": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-112": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-113": {
+   "subjectId": "biologia",
+   "assunto": "Divisão celular, genética e biotecnologia"
+  },
+  "enem2024-114": {
+   "subjectId": "fisica",
+   "assunto": "Energia, equilíbrio e gravitação"
+  },
+  "enem2024-115": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-116": {
+   "subjectId": "biologia",
+   "assunto": "Evolução, diversidade e reprodução"
+  },
+  "enem2024-117": {
+   "subjectId": "fisica",
+   "assunto": "Ondas, óptica e campo elétrico"
+  },
+  "enem2024-118": {
+   "subjectId": "fisica",
+   "assunto": "Ondas, óptica e campo elétrico"
+  },
+  "enem2024-119": {
+   "subjectId": "fisica",
+   "assunto": "Energia, equilíbrio e gravitação"
+  },
+  "enem2024-120": {
+   "subjectId": "quimica",
+   "assunto": "Eletroquímica e transformações nucleares"
+  },
+  "enem2024-121": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-122": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-123": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-124": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-125": {
+   "subjectId": "quimica",
+   "assunto": "Energia, velocidade e equilíbrio"
+  },
+  "enem2024-126": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-127": {
+   "subjectId": "biologia",
+   "assunto": "Corpo humano e saúde coletiva"
+  },
+  "enem2024-128": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-129": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-130": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-131": {
+   "subjectId": "biologia",
+   "assunto": "Ecologia, ciclos e conservação"
+  },
+  "enem2024-132": {
+   "subjectId": "biologia",
+   "assunto": "Corpo humano e saúde coletiva"
+  },
+  "enem2024-133": {
+   "subjectId": "biologia",
+   "assunto": "Ecologia, ciclos e conservação"
+  },
+  "enem2024-134": {
+   "subjectId": "biologia",
+   "assunto": "Evolução, diversidade e reprodução"
+  },
+  "enem2024-135": {
+   "subjectId": "biologia",
+   "assunto": "Divisão celular, genética e biotecnologia"
+  },
+  "enem2024-136": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-137": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-138": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-139": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-140": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-141": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-142": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-143": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-144": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-145": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-146": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-147": {
+   "subjectId": "matematica",
+   "assunto": "Geometria plana e medidas"
+  },
+  "enem2024-148": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-149": {
+   "subjectId": "matematica",
+   "assunto": "Contagem, conjuntos e probabilidade"
+  },
+  "enem2024-150": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-151": {
+   "subjectId": "matematica",
+   "assunto": "Espaço, coordenadas e trigonometria"
+  },
+  "enem2024-152": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-153": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-154": {
+   "subjectId": "matematica",
+   "assunto": "Estatística e leitura de dados"
+  },
+  "enem2024-155": {
+   "subjectId": "matematica",
+   "assunto": "Geometria plana e medidas"
+  },
+  "enem2024-156": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-157": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-158": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-159": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-160": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-161": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-162": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-163": {
+   "subjectId": "matematica",
+   "assunto": "Números, unidades e proporcionalidade"
+  },
+  "enem2024-164": {
+   "subjectId": "matematica",
+   "assunto": "Estatística e leitura de dados"
+  },
+  "enem2024-165": {
+   "subjectId": "matematica",
+   "assunto": "Contagem, conjuntos e probabilidade"
+  },
+  "enem2024-166": {
+   "subjectId": "matematica",
+   "assunto": "Custos, equações e funções"
+  },
+  "enem2024-167": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-168": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-169": {
+   "subjectId": "matematica",
+   "assunto": "Sequências e modelos de variação"
+  },
+  "enem2024-170": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-171": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-172": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-173": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-174": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-175": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-176": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-177": {
+   "subjectId": "matematica",
+   "assunto": "Custos, equações e funções"
+  },
+  "enem2024-178": {
+   "subjectId": "matematica",
+   "assunto": "Números, unidades e proporcionalidade"
+  },
+  "enem2024-179": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-180": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  }
+ },
+ "metodoRevisao": "Classificação inicial por leitura das questões; conferência visual por amostragem, incluindo idiomas, continuação de colunas, textos compartilhados e finais de seção. Gabaritos e intervalos validados automaticamente.",
+ "amostraVisual": [
+  "enem2024-1-ing",
+  "enem2024-8",
+  "enem2024-45",
+  "enem2024-90",
+  "enem2024-110",
+  "enem2024-180"
+ ],
+ "loteSha256": "ced3ba02be8a855ab463f7270dc0997a74d3a3c6de48ff5bb2618e89570d1b78"
+}

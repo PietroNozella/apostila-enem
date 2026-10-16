@@ -1,0 +1,751 @@
+{
+ "recortesConferidos": true,
+ "classificacao": {
+  "enem2022-1-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2022-2-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2022-3-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2022-4-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2022-5-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2022-1-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2022-2-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2022-3-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2022-4-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2022-5-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2022-6": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-7": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-8": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-9": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-10": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2022-11": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-12": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-13": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-14": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-15": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-16": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-17": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-18": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-19": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2022-20": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2022-21": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2022-22": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-23": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2022-24": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-25": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2022-26": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2022-27": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-28": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-29": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2022-30": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2022-31": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2022-32": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-33": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2022-34": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2022-35": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-36": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-37": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-38": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2022-39": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2022-40": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2022-41": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2022-42": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-43": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2022-44": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2022-45": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2022-46": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-47": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2022-48": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2022-49": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-50": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-51": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-52": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-53": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-54": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-55": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-56": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2022-57": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2022-58": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-59": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-60": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2022-61": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2022-62": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-63": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-64": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-65": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2022-66": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-67": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-68": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-69": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-70": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2022-71": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2022-72": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-73": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-74": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-75": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2022-76": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-77": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-78": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-79": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-80": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2022-81": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-82": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-83": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-84": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2022-85": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-86": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2022-87": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2022-88": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2022-89": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-90": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2022-91": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-92": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-93": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-94": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-95": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-96": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-97": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-98": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-99": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-100": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-101": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-102": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-103": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-104": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-105": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-106": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-107": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-108": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-109": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-110": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-111": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-112": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-113": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-114": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-115": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-116": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-117": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-118": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-119": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-120": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-121": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-122": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-123": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-124": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-125": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-126": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-127": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-128": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-129": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-130": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2022-131": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-132": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-133": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2022-134": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-135": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2022-136": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-137": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-138": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-139": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-140": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-141": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-142": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-143": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-144": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-145": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-146": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-147": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-148": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-149": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-150": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-151": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-152": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-153": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-154": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-155": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-156": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-157": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-158": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-159": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-160": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-161": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-162": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-163": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-164": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-165": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-166": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-167": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-168": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-169": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-170": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-171": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-172": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-173": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-174": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-176": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-177": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-178": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-179": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2022-180": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  }
+ },
+ "metodoRevisao": "Classificação inicial por leitura das questões; conferência visual por amostragem, incluindo idiomas, continuação de colunas, textos compartilhados e finais de seção. Gabaritos e intervalos validados automaticamente.",
+ "amostraVisual": [
+  "enem2022-1-ing",
+  "enem2022-8",
+  "enem2022-45",
+  "enem2022-90",
+  "enem2022-110",
+  "enem2022-180"
+ ],
+ "loteSha256": "9af954e46f2311b6d36e83c0567bbd33aac7cac506bcf864de05339f1309c1f2"
+}

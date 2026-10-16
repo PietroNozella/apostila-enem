@@ -16,6 +16,11 @@ export interface QuestaoSimulado {
   unidadeTitulo: string;
   /** Âncora do comentário na página da unidade; null para questões do banco de provas. */
   ancora: string | null;
+  area: string;
+  idioma: "ing" | "esp" | null;
+  aliases?: string[];
+  progressId?: string;
+  aplicacao?: "regular" | "ppl";
 }
 
 export interface SimuladoSalvo {
@@ -25,6 +30,7 @@ export interface SimuladoSalvo {
   questoes: string[];
   respostas: Record<string, string>;
   finalizadoEm?: string;
+  idioma?: "ing" | "esp";
 }
 
 export function lerSimulado(): SimuladoSalvo | null {
@@ -33,7 +39,14 @@ export function lerSimulado(): SimuladoSalvo | null {
     const raw = window.localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
     const parsed = JSON.parse(raw);
-    if (!parsed || typeof parsed !== "object" || !Array.isArray(parsed.questoes)) return null;
+    if (!parsed || typeof parsed !== "object" || !Array.isArray(parsed.questoes) || parsed.questoes.length === 0 ||
+      !parsed.questoes.every((id: unknown) => typeof id === "string") || new Set(parsed.questoes).size !== parsed.questoes.length ||
+      !Number.isFinite(Date.parse(parsed.iniciadoEm)) || !Number.isFinite(Date.parse(parsed.expiraEm)) ||
+      Date.parse(parsed.expiraEm) <= Date.parse(parsed.iniciadoEm) ||
+      !parsed.respostas || typeof parsed.respostas !== "object" || Array.isArray(parsed.respostas) ||
+      Object.entries(parsed.respostas).some(([id, letra]) => !parsed.questoes.includes(id) || typeof letra !== "string" || !/^[A-E]$/.test(letra)) ||
+      (parsed.idioma !== undefined && parsed.idioma !== "ing" && parsed.idioma !== "esp") ||
+      (parsed.finalizadoEm !== undefined && !Number.isFinite(Date.parse(parsed.finalizadoEm)))) return null;
     return parsed as SimuladoSalvo;
   } catch {
     return null;
@@ -58,13 +71,14 @@ export function limparSimulado(): void {
   }
 }
 
-export function iniciarSimulado(questoes: string[]): SimuladoSalvo {
+export function iniciarSimulado(questoes: string[], idioma: "ing" | "esp" = "ing"): SimuladoSalvo {
   const agora = Date.now();
   return {
     iniciadoEm: new Date(agora).toISOString(),
     expiraEm: new Date(agora + DURACAO_MINUTOS * 60_000).toISOString(),
     questoes,
     respostas: {},
+    idioma,
   };
 }
 
@@ -72,15 +86,18 @@ export function restanteSegundos(estado: SimuladoSalvo): number {
   return Math.max(0, Math.floor((new Date(estado.expiraEm).getTime() - Date.now()) / 1000));
 }
 
-/** 45 questões: embaralha dentro de cada matéria e intercala para cobrir todas. */
-export function sortearQuestoes(catalogo: QuestaoSimulado[], total = QUESTOES_SIMULADO): string[] {
+/** Intercala as quatro áreas e inclui apenas o idioma escolhido. */
+export function sortearQuestoes(catalogo: QuestaoSimulado[], total = QUESTOES_SIMULADO, idioma: "ing" | "esp" = "ing"): string[] {
   const porMateria = new Map<string, string[]>();
+  const vistos = new Set<string>();
   for (const questao of catalogo) {
-    const lista = porMateria.get(questao.materia) ?? [];
+    if ((questao.idioma && questao.idioma !== idioma) || vistos.has(questao.id)) continue;
+    vistos.add(questao.id);
+    const lista = porMateria.get(questao.area) ?? [];
     lista.push(questao.id);
-    porMateria.set(questao.materia, lista);
+    porMateria.set(questao.area, lista);
   }
-  const pilhas = [...porMateria.values()].map((ids) => embaralhar(ids));
+  const pilhas = embaralhar([...porMateria.values()]).map((ids) => embaralhar(ids));
   const escolhidas: string[] = [];
   while (escolhidas.length < total) {
     let progrediu = false;

@@ -1,0 +1,755 @@
+{
+ "recortesConferidos": true,
+ "classificacao": {
+  "enem2024-ppl-1-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-ppl-2-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-ppl-3-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-ppl-4-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-ppl-5-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-ppl-1-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-ppl-2-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-ppl-3-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-ppl-4-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-ppl-5-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2024-ppl-6": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-7": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2024-ppl-8": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2024-ppl-9": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-10": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-11": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2024-ppl-12": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2024-ppl-13": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2024-ppl-14": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-15": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2024-ppl-16": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2024-ppl-17": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-18": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2024-ppl-19": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2024-ppl-20": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-21": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2024-ppl-22": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-23": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2024-ppl-24": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-25": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2024-ppl-26": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-27": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-28": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2024-ppl-29": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-30": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-31": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-32": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2024-ppl-33": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-34": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-35": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-36": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-37": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-38": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-39": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2024-ppl-40": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2024-ppl-41": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2024-ppl-42": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-43": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-44": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2024-ppl-45": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2024-ppl-46": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-47": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-48": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-49": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-50": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-51": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-52": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-53": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2024-ppl-54": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-55": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2024-ppl-56": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-57": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-58": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-59": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-60": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-ppl-61": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-62": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-63": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-ppl-64": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-ppl-65": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-66": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-67": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-68": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2024-ppl-69": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-70": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-71": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-72": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-ppl-73": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-74": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-75": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-76": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-ppl-77": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2024-ppl-78": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-79": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-ppl-80": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-ppl-81": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-82": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-83": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-84": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-85": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-86": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2024-ppl-87": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2024-ppl-88": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2024-ppl-89": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2024-ppl-90": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2024-ppl-91": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-92": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-93": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-94": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-95": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-96": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-97": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-ppl-98": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-99": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-100": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-101": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-102": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-103": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-ppl-104": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-105": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-106": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-107": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-108": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-109": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-110": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-111": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-112": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-113": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-ppl-114": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-ppl-115": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-116": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-117": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-118": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-ppl-119": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-120": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-121": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-ppl-122": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-123": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-124": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-125": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-ppl-126": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-127": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-128": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-ppl-129": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-ppl-130": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-ppl-131": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2024-ppl-132": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2024-ppl-133": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-134": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-135": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2024-ppl-136": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-137": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-138": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-139": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-140": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-141": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-142": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-143": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-144": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-145": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-146": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-147": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-148": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-149": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-150": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-151": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-152": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-153": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-154": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-155": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-156": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-157": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-158": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-159": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-160": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-161": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-162": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-163": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-164": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-165": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-166": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-167": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-168": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-169": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-170": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-171": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-172": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-173": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-174": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-175": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-176": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-177": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-178": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-179": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2024-ppl-180": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  }
+ },
+ "metodoRevisao": "Classificação inicial por leitura das questões; conferência visual por amostragem, incluindo idiomas, continuação de colunas, textos compartilhados e finais de seção. Gabaritos e intervalos validados automaticamente.",
+ "amostraVisual": [
+  "enem2024-ppl-1-ing",
+  "enem2024-ppl-8",
+  "enem2024-ppl-45",
+  "enem2024-ppl-90",
+  "enem2024-ppl-110",
+  "enem2024-ppl-180"
+ ],
+ "loteSha256": "59285f4d4477982761898bae9b270a7699c1baeaa818c2da81a2954f68095cb8"
+}

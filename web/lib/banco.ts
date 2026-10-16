@@ -3,7 +3,8 @@ import bancoJson from "./banco.json";
 
 export interface BancoMeta {
   source: string;
-  exam: number;
+  exam?: number;
+  exams?: number[];
   questoes: number;
   anuladas: string[];
 }
@@ -17,6 +18,16 @@ export interface QuestaoBanco {
   answerSource: string;
   materia: string;
   ancora: null;
+  area?: string;
+  subjectId?: string;
+  assunto?: string;
+  aplicacao?: "regular" | "ppl";
+  dia?: number;
+  caderno?: number;
+  idioma?: "ing" | "esp" | null;
+  sourceUrl?: string;
+  commentary?: string;
+  revisada?: boolean;
 }
 
 export const bancoMeta: BancoMeta = (bancoJson as { meta: BancoMeta }).meta;

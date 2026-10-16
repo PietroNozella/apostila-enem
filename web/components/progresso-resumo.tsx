@@ -1,22 +1,23 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { resumoProgresso, type ResumoProgresso } from "@/lib/progresso";
+import { useProgresso } from "@/lib/use-progresso";
+import { respostaMaisRecente } from "@/lib/progresso-dados";
 
 interface ProgressoResumoProps {
   /** Prefixo do id de questão ("matematica-06-" por unidade, "matematica-" por matéria, "" = tudo). */
   prefix: string;
   total: number;
   className?: string;
+  grupos?: string[][];
 }
 
 /** Contador hidratado do localStorage; só aparece quando há progresso. */
-export default function ProgressoResumo({ prefix, total, className = "" }: ProgressoResumoProps) {
-  const [resumo, setResumo] = useState<ResumoProgresso | null>(null);
-
-  useEffect(() => {
-    setResumo(resumoProgresso(prefix));
-  }, [prefix]);
+export default function ProgressoResumo({ prefix, total, className = "", grupos }: ProgressoResumoProps) {
+  const progresso = useProgresso();
+  const respostas = grupos
+    ? grupos.map(ids => respostaMaisRecente(progresso, ids)).filter(r => r !== undefined)
+    : Object.entries(progresso).filter(([id]) => id.startsWith(prefix)).map(([, r]) => r);
+  const resumo = { respondidas: respostas.length, corretas: respostas.filter(r => r.correct).length };
 
   if (!resumo || resumo.respondidas === 0) return null;
 

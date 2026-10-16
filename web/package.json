@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint --max-warnings=0",
+    "test": "node --test qa/*.test.cjs",
+    "test:e2e": "node qa/fluxos.mjs",
+    "check": "npm run lint && npm test && npm run build"
   },
   "dependencies": {
     "next": "16.4.2",

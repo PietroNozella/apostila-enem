@@ -1,0 +1,751 @@
+{
+ "recortesConferidos": true,
+ "classificacao": {
+  "enem2023-1-ing": {
+   "subjectId": "ingles",
+   "assunto": "Ler o texto e reconhecer sua finalidade"
+  },
+  "enem2023-2-ing": {
+   "subjectId": "ingles",
+   "assunto": "Perspectiva, humor e diversidade"
+  },
+  "enem2023-3-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2023-4-ing": {
+   "subjectId": "ingles",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2023-5-ing": {
+   "subjectId": "ingles",
+   "assunto": "Perspectiva, humor e diversidade"
+  },
+  "enem2023-1-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2023-2-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Vozes, identidade e crítica social"
+  },
+  "enem2023-3-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Interpretação de textos e diversidade cultural"
+  },
+  "enem2023-4-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Leitura, contexto e relações de sentido"
+  },
+  "enem2023-5-esp": {
+   "subjectId": "espanhol",
+   "assunto": "Vozes, identidade e crítica social"
+  },
+  "enem2023-6": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2023-7": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2023-8": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2023-9": {
+   "subjectId": "portugues",
+   "assunto": "Texto, pistas e conclusões"
+  },
+  "enem2023-10": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2023-11": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2023-12": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2023-13": {
+   "subjectId": "literatura",
+   "assunto": "Poesia, modernismos e contemporaneidade"
+  },
+  "enem2023-14": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2023-15": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2023-16": {
+   "subjectId": "portugues",
+   "assunto": "Língua em uso e leitura crítica"
+  },
+  "enem2023-17": {
+   "subjectId": "portugues",
+   "assunto": "Gêneros e intenção de comunicação"
+  },
+  "enem2023-18": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2023-19": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2023-20": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2023-21": {
+   "subjectId": "portugues",
+   "assunto": "Língua em uso e leitura crítica"
+  },
+  "enem2023-22": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2023-23": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2023-24": {
+   "subjectId": "portugues",
+   "assunto": "Gêneros e intenção de comunicação"
+  },
+  "enem2023-25": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2023-26": {
+   "subjectId": "literatura",
+   "assunto": "Tradições literárias e crítica social"
+  },
+  "enem2023-27": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2023-28": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2023-29": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2023-30": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2023-31": {
+   "subjectId": "literatura",
+   "assunto": "Narrativa, poesia e construção do sentido"
+  },
+  "enem2023-32": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2023-33": {
+   "subjectId": "arte",
+   "assunto": "Olhar a obra e interpretar sua forma"
+  },
+  "enem2023-34": {
+   "subjectId": "arte",
+   "assunto": "Som, corpo e imagem técnica"
+  },
+  "enem2023-35": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2023-36": {
+   "subjectId": "arte",
+   "assunto": "Arte, patrimônio e identidade cultural"
+  },
+  "enem2023-37": {
+   "subjectId": "arte",
+   "assunto": "Matrizes culturais e circulação artística"
+  },
+  "enem2023-38": {
+   "subjectId": "arte",
+   "assunto": "Matrizes culturais e circulação artística"
+  },
+  "enem2023-39": {
+   "subjectId": "portugues",
+   "assunto": "Leitura, linguagem e gêneros textuais"
+  },
+  "enem2023-40": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2023-41": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2023-42": {
+   "subjectId": "educacao-fisica",
+   "assunto": "Esporte, saúde e inclusão"
+  },
+  "enem2023-43": {
+   "subjectId": "literatura",
+   "assunto": "Vozes, narrativa e construção do sentido"
+  },
+  "enem2023-44": {
+   "subjectId": "portugues",
+   "assunto": "Palavras, imagens e diálogo entre textos"
+  },
+  "enem2023-45": {
+   "subjectId": "portugues",
+   "assunto": "Gêneros e intenção de comunicação"
+  },
+  "enem2023-46": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2023-47": {
+   "subjectId": "historia",
+   "assunto": "Brasil imperial, trabalho e modernização"
+  },
+  "enem2023-48": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2023-49": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2023-50": {
+   "subjectId": "historia",
+   "assunto": "Fontes, sociedades antigas e mundo medieval"
+  },
+  "enem2023-51": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2023-52": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2023-53": {
+   "subjectId": "geografia",
+   "assunto": "Mapas, relevo, clima e água"
+  },
+  "enem2023-54": {
+   "subjectId": "filosofia",
+   "assunto": "Crítica, corpo e pensamento contemporâneo"
+  },
+  "enem2023-55": {
+   "subjectId": "sociologia",
+   "assunto": "Pesquisa, cultura e relações de trabalho"
+  },
+  "enem2023-56": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2023-57": {
+   "subjectId": "filosofia",
+   "assunto": "Argumentação e tradições filosóficas"
+  },
+  "enem2023-58": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2023-59": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2023-60": {
+   "subjectId": "sociologia",
+   "assunto": "Poder, cidadania e desigualdades"
+  },
+  "enem2023-61": {
+   "subjectId": "sociologia",
+   "assunto": "Pesquisa, cultura e relações de trabalho"
+  },
+  "enem2023-62": {
+   "subjectId": "historia",
+   "assunto": "Guerras, Vargas e Guerra Fria"
+  },
+  "enem2023-63": {
+   "subjectId": "historia",
+   "assunto": "Processos históricos e transformações sociais"
+  },
+  "enem2023-64": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2023-65": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2023-66": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2023-67": {
+   "subjectId": "geografia",
+   "assunto": "Biomas, população, campo e cidade"
+  },
+  "enem2023-68": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2023-69": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2023-70": {
+   "subjectId": "historia",
+   "assunto": "Ditaduras, resistências e direitos"
+  },
+  "enem2023-71": {
+   "subjectId": "geografia",
+   "assunto": "Redes, produção e geopolítica"
+  },
+  "enem2023-72": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2023-73": {
+   "subjectId": "historia",
+   "assunto": "Expansão, colonização e revoluções"
+  },
+  "enem2023-74": {
+   "subjectId": "historia",
+   "assunto": "Fontes, sociedades antigas e mundo medieval"
+  },
+  "enem2023-75": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2023-76": {
+   "subjectId": "geografia",
+   "assunto": "Biomas, população, campo e cidade"
+  },
+  "enem2023-77": {
+   "subjectId": "historia",
+   "assunto": "Brasil imperial, trabalho e modernização"
+  },
+  "enem2023-78": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2023-79": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2023-80": {
+   "subjectId": "historia",
+   "assunto": "Ditaduras, resistências e direitos"
+  },
+  "enem2023-81": {
+   "subjectId": "filosofia",
+   "assunto": "Ética, política e conhecimento"
+  },
+  "enem2023-82": {
+   "subjectId": "historia",
+   "assunto": "Brasil imperial, trabalho e modernização"
+  },
+  "enem2023-83": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2023-84": {
+   "subjectId": "sociologia",
+   "assunto": "Cultura, cidadania e relações sociais"
+  },
+  "enem2023-85": {
+   "subjectId": "geografia",
+   "assunto": "Redes, produção e geopolítica"
+  },
+  "enem2023-86": {
+   "subjectId": "historia",
+   "assunto": "Expansão, colonização e revoluções"
+  },
+  "enem2023-87": {
+   "subjectId": "historia",
+   "assunto": "Guerras, Vargas e Guerra Fria"
+  },
+  "enem2023-88": {
+   "subjectId": "geografia",
+   "assunto": "Espaço geográfico, sociedade e ambiente"
+  },
+  "enem2023-89": {
+   "subjectId": "geografia",
+   "assunto": "Brasil, paisagens e ambiente"
+  },
+  "enem2023-90": {
+   "subjectId": "filosofia",
+   "assunto": "Argumentação e tradições filosóficas"
+  },
+  "enem2023-91": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2023-92": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2023-93": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2023-94": {
+   "subjectId": "quimica",
+   "assunto": "Matéria, átomos e interações"
+  },
+  "enem2023-95": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2023-96": {
+   "subjectId": "quimica",
+   "assunto": "Reações, polímeros e aplicações"
+  },
+  "enem2023-97": {
+   "subjectId": "fisica",
+   "assunto": "Temperatura, calor e gases"
+  },
+  "enem2023-98": {
+   "subjectId": "fisica",
+   "assunto": "Circuitos, indução e tecnologia"
+  },
+  "enem2023-99": {
+   "subjectId": "biologia",
+   "assunto": "Divisão celular, genética e biotecnologia"
+  },
+  "enem2023-100": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2023-101": {
+   "subjectId": "fisica",
+   "assunto": "Circuitos, indução e tecnologia"
+  },
+  "enem2023-102": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2023-103": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2023-104": {
+   "subjectId": "biologia",
+   "assunto": "Método, moléculas e funcionamento celular"
+  },
+  "enem2023-105": {
+   "subjectId": "biologia",
+   "assunto": "Corpo humano e saúde coletiva"
+  },
+  "enem2023-106": {
+   "subjectId": "fisica",
+   "assunto": "Medidas, movimentos e forças"
+  },
+  "enem2023-107": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2023-108": {
+   "subjectId": "quimica",
+   "assunto": "Estruturas, funções e isomeria orgânica"
+  },
+  "enem2023-109": {
+   "subjectId": "biologia",
+   "assunto": "Evolução, diversidade e reprodução"
+  },
+  "enem2023-110": {
+   "subjectId": "quimica",
+   "assunto": "Energia, velocidade e equilíbrio"
+  },
+  "enem2023-111": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2023-112": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2023-113": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2023-114": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2023-115": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2023-116": {
+   "subjectId": "quimica",
+   "assunto": "Reações, polímeros e aplicações"
+  },
+  "enem2023-117": {
+   "subjectId": "quimica",
+   "assunto": "Reações, polímeros e aplicações"
+  },
+  "enem2023-118": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2023-119": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2023-120": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2023-121": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2023-122": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2023-123": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2023-124": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2023-125": {
+   "subjectId": "quimica",
+   "assunto": "Eletroquímica e transformações nucleares"
+  },
+  "enem2023-126": {
+   "subjectId": "quimica",
+   "assunto": "Substâncias e transformações químicas"
+  },
+  "enem2023-127": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2023-128": {
+   "subjectId": "quimica",
+   "assunto": "Quantidades, misturas e soluções"
+  },
+  "enem2023-129": {
+   "subjectId": "quimica",
+   "assunto": "Quantidades, misturas e soluções"
+  },
+  "enem2023-130": {
+   "subjectId": "fisica",
+   "assunto": "Medidas, movimentos e forças"
+  },
+  "enem2023-131": {
+   "subjectId": "biologia",
+   "assunto": "Vida, saúde e ambiente"
+  },
+  "enem2023-132": {
+   "subjectId": "biologia",
+   "assunto": "Ecologia, ciclos e conservação"
+  },
+  "enem2023-133": {
+   "subjectId": "fisica",
+   "assunto": "Fenômenos físicos e suas aplicações"
+  },
+  "enem2023-134": {
+   "subjectId": "quimica",
+   "assunto": "Estruturas, funções e isomeria orgânica"
+  },
+  "enem2023-135": {
+   "subjectId": "fisica",
+   "assunto": "Energia, equilíbrio e gravitação"
+  },
+  "enem2023-136": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-137": {
+   "subjectId": "matematica",
+   "assunto": "Espaço, coordenadas e trigonometria"
+  },
+  "enem2023-138": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-139": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-140": {
+   "subjectId": "matematica",
+   "assunto": "Números, unidades e proporcionalidade"
+  },
+  "enem2023-141": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-142": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-143": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-144": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-145": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-146": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-147": {
+   "subjectId": "matematica",
+   "assunto": "Espaço, coordenadas e trigonometria"
+  },
+  "enem2023-148": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-149": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-150": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-151": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-152": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-153": {
+   "subjectId": "matematica",
+   "assunto": "Sequências e modelos de variação"
+  },
+  "enem2023-154": {
+   "subjectId": "matematica",
+   "assunto": "Estatística e leitura de dados"
+  },
+  "enem2023-155": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-156": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-157": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-158": {
+   "subjectId": "matematica",
+   "assunto": "Contagem, conjuntos e probabilidade"
+  },
+  "enem2023-159": {
+   "subjectId": "matematica",
+   "assunto": "Sequências e modelos de variação"
+  },
+  "enem2023-160": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-161": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-162": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-163": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-164": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-165": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-166": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-167": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-168": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-169": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-170": {
+   "subjectId": "matematica",
+   "assunto": "Custos, equações e funções"
+  },
+  "enem2023-171": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-172": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-173": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-174": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-175": {
+   "subjectId": "matematica",
+   "assunto": "Geometria plana e medidas"
+  },
+  "enem2023-176": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-178": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-179": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  },
+  "enem2023-180": {
+   "subjectId": "matematica",
+   "assunto": "Problemas e modelos matemáticos"
+  }
+ },
+ "metodoRevisao": "Classificação inicial por leitura das questões; conferência visual por amostragem, incluindo idiomas, continuação de colunas, textos compartilhados e finais de seção. Gabaritos e intervalos validados automaticamente.",
+ "amostraVisual": [
+  "enem2023-1-ing",
+  "enem2023-8",
+  "enem2023-45",
+  "enem2023-90",
+  "enem2023-110",
+  "enem2023-180"
+ ],
+ "loteSha256": "c3c4e06c2bdd79aa22f13e012e915ec99fe665edea37bb8d8ce4f107e574564d"
+}

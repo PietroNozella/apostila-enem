@@ -1,8 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getUnit, paragraphs, subjects } from "@/lib/content";
 import TreinoInterativo from "@/components/treino-interativo";
+import ImagemQuestao from "@/components/imagem-questao";
 
 export function generateStaticParams() {
   return subjects.flatMap((subject) => subject.units.map((unit) => ({ id: unit.id })));
@@ -44,12 +44,7 @@ function QuestionSection({
           ENEM {exam} · questão {question}
         </span>
       </h2>
-      <img
-        src={image}
-        alt={`Enunciado da questão ${question} do ENEM ${exam}`}
-        loading="lazy"
-        className="mt-4 w-full rounded-xl border border-neutral-200"
-      />
+      <ImagemQuestao src={image} alt={`Enunciado da questão ${question} do ENEM ${exam}`} />
       <p className="mt-4 inline-block rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-sm font-medium text-emerald-800">
         Gabarito: <strong>{answer}</strong>
       </p>
