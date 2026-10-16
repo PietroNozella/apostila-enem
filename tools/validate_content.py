@@ -4,7 +4,7 @@ import json
 import os
 import re
 
-PROJ = r"C:\Users\Micro\enem-treino"
+PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 content = json.load(open(os.path.join(PROJ, "data", "content.json"), encoding="utf-8"))
 IMG_DIR = os.path.join(PROJ, "data", "images")
 CTRL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
