@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ENEM Treino (app)
 
-## Getting Started
+App Next.js 16 + Tailwind 4 consumindo `../data/content.json`. Em produção: https://enem-treino.vercel.app
 
-First, run the development server:
+## Rodar local
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev   # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build de produção local: `npm run build` e `npm run start`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Variáveis de ambiente
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY` são necessárias só para a sincronização de
+progresso (em `.env.local`, fora do git; as mesmas chaves configuradas na Vercel).
 
-## Learn More
+## Progresso e sincronização
 
-To learn more about Next.js, take a look at the following resources:
+- Sem login: as respostas ficam em `localStorage` (`enem-treino:progresso`) e aparecem
+  como contadores na home e nas páginas de matéria.
+- O **código de estudo** (formato XXXX-XXXX, sem 0/O/1/I) identifica a cópia no
+  Supabase: gere um na home para publicar seu progresso ou conecte um código existente.
+  Conectar faz GET + merge (por questão, vence a resposta com `answeredAt` mais
+  recente); cada resposta dispara um PUT silencioso.
+- Segurança: a tabela `progressos` tem RLS ligada e **nenhuma política** — nem `anon`
+  nem `authenticated` acessam por chave pública. Só a rota
+  `app/api/progresso/[codigo]/route.ts` (server-side) lê e escreve com a chave
+  `service_role`. As envs nunca chegam ao cliente; o app não usa supabase-js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Simulado
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `/simulado`: 45 questões sorteadas do banco intercalando matérias, cronômetro de
+  2h30 com fechamento automático, navegador de questões e troca de alternativa até
+  finalizar. No fim: placar total e por matéria, gabarito de cada questão e link para
+  o comentário na unidade.
+- O estado da prova fica em `localStorage` (`enem-treino:simulado`): reabrir a página
+  retoma a prova em andamento; prova expirada fecha sozinha com as respostas salvas.
+- Por design, o simulado não entra na sincronização por código (fica no dispositivo).
 
-## Deploy on Vercel
+## QA visual
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Com o build de produção rodando em `localhost:3000`:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+node qa/fotos.mjs     # superfícies principais (desktop + mobile)
+node qa/simulado.mjs  # fluxo completo do simulado
+```
+
+Os PNGs vão para `qa/` e são ignorados pelo git.

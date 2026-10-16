@@ -7,6 +7,7 @@ Base de conteúdo para um app de treino ENEM, extraída da **Apostila ENEM 2026 
 - `data/content.json` — 13 matérias, 52 unidades, 156 questões (1 resolvida + 2 treinos por unidade), com explicação em texto, comentários e gabaritos
 - `data/images/` — 156 imagens (enunciado + alternativas de cada questão; questões divididas entre páginas foram costuradas)
 - Todas as 156 respostas verificadas contra os gabaritos oficiais do INEP — 0 divergências (`data/gabarito_check.txt`)
+- App em `web/`: catálogo navegável, treino interativo com feedback imediato, progresso local com contadores, sincronização entre dispositivos por código de estudo (Supabase) e modo simulado (45 questões cronometradas com gabarito no fim) — detalhes em `web/README.md`
 
 ## Pipeline (reproduzir)
 
@@ -21,7 +22,7 @@ python tools/validate_content.py
 |---|---|
 | `build_content.py` | Extrai unidades, textos (parágrafos) e imagens do PDF da apostila |
 | `parse_gabaritos.py` | Lê os gabaritos oficiais em `data/gabaritos_inep/` — atenção: questões 1-5 do 1º dia têm 2 colunas (INGLÊS/ESPANHOL) |
-| `apply_gabaritos.py` | Cruza respostas da apostila com o INEP; preenche letras das resolvidas; gera `data/gabarito_check.txt` |
+| `apply_gabaritos.py` | Cruza respostas da apostila com o INEP; preenche letras das resolvidas; gera `data/gabarito_check.txt`. Idempotente: re-executar não altera `content.json` |
 | `validate_content.py` | Relatório de qualidade (imagens, tamanhos, respostas) em `data/validation.txt` |
 
 ## Fontes oficiais (INEP)
@@ -37,7 +38,7 @@ App Next.js 16 + Tailwind 4 consumindo os dados acima.
 
 - `web/lib/content.json` (cópia de `data/content.json`) + imagens em `web/public/images/`
 - Rodar: `npm install` e `npm run dev` dentro de `web/`
-- Estado: catálogo navegável — home (matérias), `/materia/[slug]` (unidades), `/unidade/[id]` (explicação + 3 questões em modo estudo). Próximo: treino interativo com feedback e progresso em localStorage.
+- Estado: catálogo (home, `/materia/[slug]`, `/unidade/[id]`), treino interativo com feedback imediato, progresso local com contadores, sincronização por código de estudo via Supabase (rota server-side com `service_role`; ver `web/README.md`) e simulado em `/simulado` (45 questões, 2h30, gabarito no fim)
 
 ## Observações
 
